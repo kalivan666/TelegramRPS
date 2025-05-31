@@ -1,1 +1,4 @@
 .vs/
+public-client/
+public-server/
+test/
