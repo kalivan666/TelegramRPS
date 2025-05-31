@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\TelegramUserInfo.css"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
@@ -37,12 +41,28 @@
       "PackagePath": "staticwebassets\\images\\CreateGame.png"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\CreateGame.svg",
+      "PackagePath": "staticwebassets\\images\\CreateGame.svg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\JoinGame.png",
       "PackagePath": "staticwebassets\\images\\JoinGame.png"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\JoinGame.svg",
+      "PackagePath": "staticwebassets\\images\\JoinGame.svg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\MyProfile.png",
       "PackagePath": "staticwebassets\\images\\MyProfile.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\MyProfile.svg",
+      "PackagePath": "staticwebassets\\images\\MyProfile.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\MyProfile\\SuccAvatarConfirm.png",
+      "PackagePath": "staticwebassets\\images\\MyProfile\\SuccAvatarConfirm.png"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\MyProfile\\back.png",

@@ -9,6 +9,8 @@ public class UserProfile
     public string? LastName { get; set; } = string.Empty;
     public string? AvatarUrl { get; set; } = string.Empty;
 
+    public UserGameStats GameStats { get; set; } = new();
+
     public DateTime RefistrationAt { get; set; } = DateTime.UtcNow;
 
     public int Coins { get; set; } = 0;

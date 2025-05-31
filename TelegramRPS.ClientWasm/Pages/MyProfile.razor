@@ -1,5 +1,9 @@
 ﻿@page "/profile"
+@layout MainLayout
+
 @using TelegramRPS.ClientWasm.Services
+@using TelegramRPS.Shared.Models.Profile
+
 @inject IJSRuntime js
 @inject UserProfileService UserProfileService
 @inject TelegramInterop TelegramInterop
@@ -23,14 +27,18 @@
         </label>
         <InputFile id="avatarInput" style="display:none" OnChange="OnFileSelected" accept="image/png,image/jpeg" />
 
-
-        @if (previewUrl != null)
+        <!-- окно изменения аватарки -->
+        @if (_isAvatarModalVisible && previewUrl != null)
         {
-            <div class="avatar-preview-container">
-                <img src="@previewUrl" alt="Preview" style="max-width:150px; max-height:150px; border-radius:50%;" />
-                <div class="avatar-preview-buttons">
-                    <button class="btn btn-success" @onclick="UploadAvatar" disabled="@isUploading">Загрузить</button>
-                    <button class="btn btn-secondary" @onclick="CancelPreview" disabled="@isUploading">Отмена</button>
+            <div class="modal-overlay" @onclick="CancelEdit">
+                <div class="avatar-modal-content @( _isClosing ? "modalFadeOut" : "" )" @onclick:stopPropagation>
+                    <div class="avatar-modal-title">Новая аватарка</div>
+                    <img class="avatar-preview" src="@previewUrl" alt="Preview" />
+
+                    <div class="avatar-modal-buttons">
+                        <button class="confirm-button" @onclick="UploadAvatar" disabled="@isUploading">Применить</button>
+                        <button class="cancel-button-avatar" @onclick="CancelEdit" disabled="@isUploading">Отмена</button>
+                    </div>
                 </div>
             </div>
         }
@@ -40,6 +48,7 @@
             <p>Загрузка...</p>
         }
 
+        <!-- Имя профиля -->
         <div class="profile-section name-edit-section">
             <span class="profile-display-name">
                 @UserProfileService.CurrentUserProfile?.DisplayName
@@ -47,15 +56,66 @@
             <button class="edit-button" @onclick="ShowEditNameModel">Изменить</button>
         </div>
 
+        <!-- Окно изменения имени профиля -->
         @if (_isEditModalVisible)
         {
-            <div class="modal-overlay">
-                <div class="modal-content">
+            <div class="modal-overlay" @onclick="CancelEdit">
+                <div class="modal-content @( _isClosing ? "modalFadeOut" : "" )" @onclick:stopPropagation>
+                    <div class="modal-title">Изменить имя профиля</div>
                     <input type="text" class="edit-input" @bind="_editedName" />
-                    <button class="apply-button" @onclick="ApplyNewName">Применить</button>
+                    <div class="modal-buttons">
+                        <button class="apply-button" @onclick="ApplyNewName">Применить</button>
+                        <button class="cancel-button" @onclick="CancelEdit">Отмена</button>
+                    </div>
                 </div>
             </div>
         }
+
+
+        <!-- Статистика игр -->
+        <div class="game-stats-container">
+            <div class="game-stats-title">Статистика</div>
+
+            <div class="game-stats-row">
+                <span class="game-stats-label">Игр сыграно:</span>
+                <span class="game-stats-value">@UserProfileService.CurrentUserProfile.GameStats.GamesPlayed</span>
+            </div>
+
+            <div class="game-stats-row">
+                <span class="game-stats-label">Побед:</span>
+                <span class="game-stats-value">@UserProfileService.CurrentUserProfile.GameStats.Wins</span>
+            </div>
+
+            <div class="game-stats-row">
+                <span class="game-stats-label">Процент побед:</span>
+                <span class="game-stats-value">@UserProfileService.CurrentUserProfile.GameStats.WinRate %</span>
+            </div>
+
+            <div class="game-stats-row">
+                <span class="game-stats-label">Рейтинг:</span>
+                <span class="game-stats-value">@UserProfileService.CurrentUserProfile.GameStats.Rating</span>
+            </div>
+        </div>
+
+        <!-- Достижения -->
+        <div class="achievements-container">
+            <div class="achievements-title">Достижения</div>
+        </div>
+
+        @if (_showResetProfileModal)
+        {
+            <div class="modal-overlay" @onclick="CancelEdit">
+                <div class="modal-content @(_isClosing ? "modalFadeOut" : "" )" @onclick:stopPropagation>
+                    <div class="modal-title">Сбросить профиль?</div>
+                    <div class="modal-buttons">
+                        <button class="cancel-button" @onclick="CancelEdit">Отмена</button>
+                        <button class="confirm-button" @onclick="ConfirmReset">Сбросить</button>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <button class="reset-profile-button" @onclick="OpenResetModal">Сбросить профиль</button>
 
     </div>
 }
@@ -65,7 +125,14 @@ else
 }
 
 @code {
+    [CascadingParameter]
+    public MainLayout MainLayoutInstance { get; set; } = null!;
+
+    private bool _isAvatarModalVisible = false;
     private bool _isEditModalVisible = false;
+    private bool _showResetProfileModal = false;
+    private bool _isClosing = false;
+
     private string _editedName = "";
     private string? previewUrl;
     private bool isUploading = false;
@@ -96,6 +163,28 @@ else
         }
 
     }
+
+    private async Task CancelEdit()
+    {
+        _isClosing = true;
+        StateHasChanged(); // нужно отрисовать с новым классом
+
+        await Task.Delay(200); // ждём завершения анимации
+
+        //имя профиля
+        _isEditModalVisible = false;
+
+        //смена аватара
+        previewUrl = null;
+        selectedFile = null;
+        _isAvatarModalVisible = false;
+
+        //сброс профиля
+        _showResetProfileModal = false;
+
+        _isClosing = false;
+    }
+
     private async Task OnFileSelected(InputFileChangeEventArgs e)
     {
         selectedFile = e.File;
@@ -107,13 +196,8 @@ else
             await stream.ReadAsync(buffer);
 
             previewUrl = $"data:{selectedFile.ContentType};base64,{Convert.ToBase64String(buffer)}";
+            _isAvatarModalVisible = true;
         }
-    }
-
-    private void CancelPreview()
-    {
-        previewUrl = null;
-        selectedFile = null;
     }
 
     private async Task UploadAvatar()
@@ -130,16 +214,15 @@ else
             streamContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(selectedFile.ContentType);
             content.Add(streamContent, "file", selectedFile.Name);
 
-            var response = await Http.PostAsync("api/profile/avatar", content);
+            var response = await Http.PostAsync("api/profile/upload-avatar", content);
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadFromJsonAsync<UploadAvatarResponse>();
                 if (result != null)
                 {
-                    UserProfileService.CurrentUserProfile.AvatarUrl = result.Url;
+                    UserProfileService.CurrentUserProfile.AvatarUrl = Http.BaseAddress + result.Url;
                     await UserProfileService.UpdateUserProfileAsync(UserProfileService.CurrentUserProfile);
-                    previewUrl = null;
-                    selectedFile = null;
+                    await CancelEdit();
                 }
             }
             else
@@ -159,6 +242,18 @@ else
         _isEditModalVisible = true;
     }
 
+    private void OpenResetModal()
+    {
+        _showResetProfileModal = true;
+    }
+
+    private async Task ConfirmReset()
+    {
+        await CancelEdit();
+        UserProfileService.CurrentUserProfile.GameStats = new UserGameStats();
+        await UserProfileService.UpdateUserProfileAsync(UserProfileService.CurrentUserProfile);
+    }
+
     private async Task ApplyNewName()
     {
         await UserProfileService.UpdateUserNameAsync(_editedName);
@@ -169,8 +264,11 @@ else
     {
         UserProfileService.OnUserProfileChanged -= StateHasChanged;
     }
-    private void GoBack()
+    private async Task GoBack()
     {
-        NavigationManager.NavigateTo("/");
+        if (MainLayoutInstance != null)
+            await MainLayoutInstance.NavigateWithAnimation("/");
+        else
+            NavigationManager.NavigateTo("/");
     }
 }

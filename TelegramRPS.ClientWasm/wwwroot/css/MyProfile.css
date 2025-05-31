@@ -1,4 +1,36 @@
-﻿.my-profile-container {
+﻿@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes modalFadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.95);
+    }
+}
+
+.modal-content,
+.avatar-modal-content {
+    animation: modalFadeIn 0.25s ease-out;
+}
+
+.modalFadeOut {
+    animation: modalFadeOut 0.2s ease-in forwards;
+}
+.my-profile-container {
     background-color: #0F0F23;
     min-height: 100vh;
     padding: 24px;
@@ -32,7 +64,7 @@
     width: 80px;
     height: 80px;
     left: 50%;
-    top: 80px;
+    top: 70px;
     transform: translateX(-50%);
     border: 4px solid #21262D;
     box-sizing: border-box;
@@ -50,11 +82,11 @@
 
 .avatar-edit-button {
     position: absolute;
-    width: 24px;
-    height: 24px;
+    width: 12px;
+    height: 12px;
     left: 55%;
     transform: translateX(-55%);
-    top: 175px;
+    top: 165px;
     cursor: pointer;
     z-index: 10; /* чтобы кнопка была поверх аватара */
 }
@@ -62,7 +94,7 @@
 .name-edit-section {
     width: 95%;
     max-width: 384px;
-    height: 60px;
+    height: 40px;
     margin: 100px auto 0;
     background-color: #21262D;
     border-radius: 8px;
@@ -79,7 +111,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     color: #FFFFFF;
 }
@@ -88,7 +120,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 20px;
     text-align: center;
     color: #EE5A24;
@@ -114,32 +146,262 @@
 
 /* Внутренний контейнер окна */
 .modal-content {
-    background-color: #21262D;
-    padding: 16px;
+    position: relative; /* чтоб внутренние элементы можно было позиционировать */
+    width: 270px;
+    height: 140px;
+    background: #21262D;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.4);
     border-radius: 8px;
+    padding: 24px; /* можно чуть больше, чем в фигме, чтобы не сливалось */
     display: flex;
-    gap: 8px;
-    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.modal-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2px;
 }
 
 /* Поле ввода */
 .edit-input {
-    padding: 8px;
+    width: 90%;
+    height: 48px;
+    background: #0F0F23;
+    border: 1px solid #8B949E;
+    border-radius: 8px;
+    padding: 0 12px;
     font-size: 14px;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    background-color: #0F0F23;
+    font-weight: 700;
     color: white;
-    width: 200px;
+    outline: none;
 }
 
 /* Кнопка применить */
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    gap: 16px;
+}
+
 .apply-button {
-    background-color: #EE5A24;
+    background: linear-gradient(90deg, #EE5A24 100%, #FF6B6B 0%);
+    box-shadow: 0px 4px 12px rgba(238, 90, 36, 0.3);
     color: white;
     border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
+    border-radius: 8px;
+    height: 44px;
+    flex: 1;
+    font-weight: 600;
+    font-size: 14px;
     cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+    .apply-button:hover {
+        filter: brightness(1.1);
+        transform: scale(1.02);
+    }
+
+.cancel-button {
+    background: rgba(139, 148, 158, 0.15);
+    border: 1px solid rgba(139, 148, 158, 0.3);
+    border-radius: 8px;
+    height: 44px;
+    flex: 1;
+    font-weight: 600;
+    font-size: 14px;
+    color: #8B949E;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+    .cancel-button:hover {
+        background: rgba(139, 148, 158, 0.25);
+        transform: scale(1.02);
+    }
+
+
+/* Контейнер окна для подтверждения новой аватарки */
+.avatar-modal-content {
+    background-color: #0F0F23;
+    padding: 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.25);
+    border: 1px solid #21262D;
+    min-width: 300px;
+}
+
+/* Заголовок окна */
+.avatar-modal-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Превью аватарки */
+.avatar-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #21262D;
+    object-fit: cover;
+}
+
+/* Кнопки действия */
+.avatar-modal-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Кнопка Применить */
+.confirm-button {
+    background: linear-gradient(90deg, #EE5A24 100%, #FF6B6B 0%);
+    box-shadow: 0px 4px 12px rgba(238, 90, 36, 0.3);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Кнопка "Отмена" */
+.cancel-button-avatar {
+    background: transparent;
+    border: 1px solid #8B949E;
+    color: #8B949E;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.confirm-button:hover {
+    filter: brightness(1.1);
+    transform: scale(1.02);
+}
+
+.cancel-button-avatar:hover {
+    background-color: rgba(139, 148, 158, 0.15);
+    transform: scale(1.02);
+}
+
+.cancel-button,
+.apply-button,
+.confirm-button,
+.avatar-cancel-button {
+    transition: background 0.2s ease, color 0.2s ease, border 0.2s ease;
+}
+
+.modal-overlay {
+    animation: fadeOverlay 0.25s ease-out;
+}
+
+@keyframes fadeOverlay {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    to {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.game-stats-container {
+    width: 95%;
+    max-width: 384px;
+    margin: 24px auto 0;
+    background: #21262D;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.game-stats-title {
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.game-stats-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-stats-label {
+    font-weight: 400;
+    font-size: 10px;
+    color: #8B949E;
+}
+
+.game-stats-value {
+    font-weight: 500;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.achievements-container {
+    width: 95%;
+    max-width: 384px;
+    margin: 16px auto 0;
+    background: #21262D;
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 80px; /* чуть ниже по высоте, пока пустой */
+}
+
+.achievements-title {
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.reset-profile-button {
+    width: 95%;
+    max-width: 384px;
+    margin: 16px auto 0;
+    background: linear-gradient(90deg, #EE5A24 100%, #FF6B6B 0%);
+    box-shadow: 0px 4px 12px rgba(238, 90, 36, 0.3);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    transition: transform 0.2s ease;
+}
+
+.reset-profile-button:hover {
+    transform: scale(1.01);
 }

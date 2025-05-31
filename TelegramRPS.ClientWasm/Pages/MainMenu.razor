@@ -1,7 +1,9 @@
 ﻿@page "/"
+
 @using TelegramRPS.ClientWasm.Services
 @using TelegramRPS.ClientWasm.Shared
 @using TelegramRPS.Shared.Models.Game
+@using Microsoft.AspNetCore.Components
 
 @inject TelegramInterop TelegramInterop
 @inject TelegramAuthService TelegramAuthService
@@ -18,9 +20,27 @@
         <h1 class="main-title">Добро пожаловать в Дурак</h1>
         <p class="main-subtitle">Классическая русская карточная игра</p>
         <div class="buttons-container">
-            <img src="images/CreateGame.png" alt="Кнопка 1" class="menu-button" @onclick="CreateGameAsync" />
-            <img src="images/JoinGame.png" alt="Кнопка 2" class="menu-button" />
-            <img src="images/MyProfile.png" alt="Кнопка 3" class="menu-button" @onclick="GoToProfile"/>
+            <button class="create-game-button" @onclick="CreateGameAsync">
+                <img src="images/CreateGame.svg" alt="Создать игру" width="20" height="20" />
+                Создать игру
+            </button>
+            <button class="join-game-button">
+                <img src="images/JoinGame.svg" alt="Присоединиться" width="20" height="20" />
+                Присоединиться к игре
+            </button>
+
+            <button class="profile-button" @onclick="GoToProfile">
+                <img src="images/MyProfile.svg" alt="Профиль" width="20" height="20" />
+                Мой профиль
+            </button>
+
+            <div class="stats-summary">
+                <span>Игр сыграно: @UserProfileService.CurrentUserProfile.GameStats.GamesPlayed</span>
+                <span class="dot">•</span>
+                <span>Побед: @UserProfileService.CurrentUserProfile.GameStats.Wins</span>
+                <span class="dot">•</span>
+                <span>Рейтинг: @UserProfileService.CurrentUserProfile.GameStats.Rating</span>
+            </div>
         </div>
     </div>
 }
@@ -30,6 +50,8 @@ else
 }
 
 @code {
+    [CascadingParameter]
+    public MainLayout MainLayoutInstance { get; set; } = null!;
 
     protected override async Task OnInitializedAsync()
     {
@@ -52,7 +74,10 @@ else
 
     private async Task GoToProfile()
     {
-        NavigationManager.NavigateTo("/profile");    
+        if (MainLayoutInstance != null)
+            await MainLayoutInstance.NavigateWithAnimation("/profile");
+        else
+            NavigationManager.NavigateTo("/profile");
     }
 
     private async Task CreateGameAsync()

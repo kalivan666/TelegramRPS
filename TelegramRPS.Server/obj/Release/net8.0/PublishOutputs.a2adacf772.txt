@@ -1,4 +1,5 @@
 C:\Users\USER\source\repos\public-server\TelegramRPS.Server.exe
+C:\Users\USER\source\repos\public-server\web.config
 C:\Users\USER\source\repos\public-server\TelegramRPS.Server.dll
 C:\Users\USER\source\repos\public-server\TelegramRPS.Server.deps.json
 C:\Users\USER\source\repos\public-server\TelegramRPS.Server.runtimeconfig.json

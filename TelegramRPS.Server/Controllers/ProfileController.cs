@@ -23,13 +23,13 @@ public class ProfileController: ControllerBase
     [HttpPost("upload-avatar")]
     public async Task<IActionResult> UploadAvatar([FromForm] IFormFile file)
     {
-        if (!IsRequestFromClient())
-            return Forbid();
+        /*if (!IsRequestFromClient())
+            return Forbid();*/
 
         if (file == null || file.Length == 0)
             return BadRequest("Файл не загружен.");
 
-        var allowedTypes = new[] { "imagr/jpeg", "image/png", "image/webp" };
+        var allowedTypes = new[] { "image/jpeg", "image/png", "image/webp" };
         if (!allowedTypes.Contains(file.ContentType))
             return BadRequest("Недопустимый тип файла.");
 
