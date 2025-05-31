@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TelegramRPS.Server.props" />
+</Project>

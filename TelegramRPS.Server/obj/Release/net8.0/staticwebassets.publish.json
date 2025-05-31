@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YIZu/X7OBG38dU6tFOUBTwoBzhN42xWoifR1bNnuYnU=",
+  "Source": "TelegramRPS.Server",
+  "BasePath": "_content/TelegramRPS.Server",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

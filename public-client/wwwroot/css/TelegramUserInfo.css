@@ -1,0 +1,35 @@
+﻿.telegram-user-info {
+    position: fixed;
+    top: 20px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    z-index: 10000; /* увеличен, чтобы перекрывать всё */
+    width: auto;
+    max-width: 300px; /* ограничим ширину */
+}
+
+.telegram-user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #21262D;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.telegram-user-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-right: 12px;
+    color: #8B949E;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

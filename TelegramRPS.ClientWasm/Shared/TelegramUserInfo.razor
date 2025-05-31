@@ -1,0 +1,24 @@
+﻿@using TelegramRPS.ClientWasm.Services
+@using TelegramRPS.Shared.Models.Profile
+@inject UserProfileService UserProfileService
+@inject AuthHubService AuthHubService
+
+@if (UserProfileService.CurrentUserProfile != null)
+{
+    <div class="telegram-user-info">
+        <span class="telegram-user-name">
+            @UserProfileService.CurrentUserProfile.DisplayName
+        </span>
+
+        <img class="telegram-user-avatar"
+             src="@UserProfileService.CurrentUserProfile.AvatarUrl"
+        alt="Avatar" />
+    </div>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        
+    }
+}

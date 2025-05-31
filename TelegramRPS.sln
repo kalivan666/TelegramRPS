@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramRPS", "TelegramRPS\TelegramRPS.csproj", "{B02972B6-43CD-446E-83DD-4AFC28EB4023}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramRPS.Server", "TelegramRPS.Server\TelegramRPS.Server.csproj", "{8F949C40-95B1-4D92-BAF4-BB01E7295831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramRPS.Shared", "TelegramRPS.Shared\TelegramRPS.Shared.csproj", "{6ACCDDFA-A19A-4179-9A8F-37EE17E8C7F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{78BB6A0E-8B5A-4540-B786-BAB2DC09824D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramRPS.ClientWasm", "TelegramRPS.ClientWasm\TelegramRPS.ClientWasm.csproj", "{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B02972B6-43CD-446E-83DD-4AFC28EB4023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B02972B6-43CD-446E-83DD-4AFC28EB4023}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B02972B6-43CD-446E-83DD-4AFC28EB4023}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B02972B6-43CD-446E-83DD-4AFC28EB4023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F949C40-95B1-4D92-BAF4-BB01E7295831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F949C40-95B1-4D92-BAF4-BB01E7295831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F949C40-95B1-4D92-BAF4-BB01E7295831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F949C40-95B1-4D92-BAF4-BB01E7295831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACCDDFA-A19A-4179-9A8F-37EE17E8C7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACCDDFA-A19A-4179-9A8F-37EE17E8C7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACCDDFA-A19A-4179-9A8F-37EE17E8C7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACCDDFA-A19A-4179-9A8F-37EE17E8C7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BB6A0E-8B5A-4540-B786-BAB2DC09824D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BB6A0E-8B5A-4540-B786-BAB2DC09824D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BB6A0E-8B5A-4540-B786-BAB2DC09824D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BB6A0E-8B5A-4540-B786-BAB2DC09824D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8661D3D-CEE5-4CA3-9AAA-52134D56AD7B}
 	EndGlobalSection
 EndGlobal

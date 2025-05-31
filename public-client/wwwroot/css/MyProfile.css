@@ -1,0 +1,144 @@
+﻿.my-profile-container {
+    background-color: #0F0F23;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.back-button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 13px;
+    top: 13px;
+}
+
+.profile-title {
+    position: absolute;
+    width: max-content;
+    height: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.profile-avatar-wrapper {
+    position: absolute; /* или relative, если нужно позиционировать внутри блока */
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 110px;
+    transform: translateX(-50%);
+    border: 4px solid #21262D;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    /* чтобы кнопка позиционировалась правильно, можно поменять на relative */
+    position: relative;
+}
+
+.profile-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar-edit-button {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 2px; /* немного над нижним краем */
+    right: 2px; /* немного слева от правого края */
+    cursor: pointer;
+    z-index: 10; /* чтобы кнопка была поверх аватара */
+}
+
+.name-edit-section {
+    width: 95%;
+    max-width: 384px;
+    height: 60px;
+    margin: 180px auto 0;
+    background-color: #21262D;
+    border-radius: 8px;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.profile-display-name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.edit-button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #EE5A24;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Задний полупрозрачный фон */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); /* затемнение */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* Внутренний контейнер окна */
+.modal-content {
+    background-color: #21262D;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Поле ввода */
+.edit-input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #0F0F23;
+    color: white;
+    width: 200px;
+}
+
+/* Кнопка применить */
+.apply-button {
+    background-color: #EE5A24;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}

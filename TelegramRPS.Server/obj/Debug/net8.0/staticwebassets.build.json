@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "XZlLx2RBhgRB+8+bPs+e6xRRBApblrijdHz++6z1JWs=",
+  "Source": "TelegramRPS.Server",
+  "BasePath": "_content/TelegramRPS.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TelegramRPS.Server\\wwwroot",
+      "Source": "TelegramRPS.Server",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\wwwroot\\",
+      "BasePath": "_content/TelegramRPS.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

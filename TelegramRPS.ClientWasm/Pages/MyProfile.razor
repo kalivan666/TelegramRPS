@@ -1,0 +1,118 @@
+﻿@page "/profile"
+@using TelegramRPS.ClientWasm.Services
+@inject TelegramAuthService TelegramAuthService
+@inject UserProfileService UserProfileService
+@inject NavigationManager NavigationManager
+@inject TelegramInterop TelegramInterop
+@implements IDisposable
+
+@if (UserProfileService.CurrentUserProfile != null)
+{
+    <div class="my-profile-container">
+        <img src="images/MyProfile/back.png" alt="Назад" class="back-button" @onclick="GoBack" />
+        <h1 class="profile-title">Профиль</h1>
+
+
+        <div class="profile-avatar-wrapper">
+            <img class="profile-avatar"
+            src="@UserProfileService.CurrentUserProfile.AvatarUrl"
+            alt="Avatar" />
+        </div>
+
+        <inputFile style="display:none" @ref="fileInput" @onchange="OnEditAvatarClicked" />
+        <button class="avatar-edit-button" @onclick="TriggerFileUpload">
+            <img src="images/MyProfile/editAvatar.png" alt="Edit" />
+        </button>
+
+        <div class="profile-section name-edit-section">
+            <span class="profile-display-name">
+                @UserProfileService.CurrentUserProfile?.DisplayName
+            </span>
+            <button class="edit-button" @onclick="ShowEditNameModel">Изменить</button>
+        </div>
+
+        <!-- Модальное окно редактирования -->
+        @if (_isEditModalVisible)
+        {
+            <div class="modal-overlay">
+                <div class="modal-content">
+                    <input type="text" class="edit-input" @bind="_editedName" />
+                    <button class="apply-button" @onclick="ApplyNewName">Применить</button>
+                </div>
+            </div>
+        }
+
+    </div>
+}
+
+
+@code {
+    private bool _isEditModalVisible = false;
+    private string _editedName = "";
+    private ElementReference fileInput;
+    private readonly IJSRuntime js;
+
+    private async Task TriggerFileUpload()
+    {
+        await js.InvokeVoidAsync("triggerFileInputClick", fileInput);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        UserProfileService.OnUserProfileChanged += StateHasChanged;
+
+        if (UserProfileService.CurrentUserProfile == null)
+        {
+            var data = await TelegramInterop.GetTelegramUserDataAsync();
+            if (data?.User != null)
+            {
+                await TelegramAuthService.SetTelegramUser(data.User);
+                await UserProfileService.AuthenticateAsync(
+                    TelegramAuthService.CurrentTelegramUser.Id,
+                    TelegramAuthService.CurrentTelegramUser.FirstName,
+                    TelegramAuthService.CurrentTelegramUser.LastName,
+                    TelegramAuthService.CurrentTelegramUser.Username,
+                    TelegramAuthService.CurrentTelegramUser.PhotoUrl
+                );
+            }
+        }
+    }
+
+    private async Task OnEditAvatarClicked(InputFileChangeEventArgs e)
+    {
+        UserProfileService.OnUserProfileChanged += StateHasChanged;
+
+        var file = e.File;
+        if (file != null)
+        {
+            var newUrl = await UserProfileService.UploadAvatarAsync(file);
+            if (!string.IsNullOrWhiteSpace(newUrl))
+            {
+                UserProfileService.CurrentUserProfile.AvatarUrl = newUrl;
+                await UserProfileService.UpdateUserProfileAsync(UserProfileService.CurrentUserProfile);
+            }
+        }
+    }
+
+    private void ShowEditNameModel()
+    {
+        _editedName = UserProfileService.CurrentUserProfile.DisplayName;
+        _isEditModalVisible = true;
+    }
+
+    private async Task ApplyNewName()
+    {
+        await UserProfileService.UpdateUserNameAsync(_editedName);
+        _isEditModalVisible = false;
+    }
+
+    public void Dispose()
+    {
+        UserProfileService.OnUserProfileChanged -= StateHasChanged;
+    }
+
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\TelegramRPS.Shared\bin\Debug\net8.0\TelegramRPS.Shared.deps.json
+C:\Users\USER\source\repos\TelegramRPS.Shared\bin\Debug\net8.0\TelegramRPS.Shared.dll
+C:\Users\USER\source\repos\TelegramRPS.Shared\bin\Debug\net8.0\TelegramRPS.Shared.pdb
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\TelegramRPS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\TelegramRPS.Shared.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\TelegramRPS.Shared.AssemblyInfo.cs
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\TelegramRPS.Shared.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\TelegramRPS.Shared.sourcelink.json
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\TelegramRPS.Shared.dll
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\refint\TelegramRPS.Shared.dll
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\TelegramRPS.Shared.pdb
+C:\Users\USER\source\repos\TelegramRPS.Shared\obj\Debug\net8.0\ref\TelegramRPS.Shared.dll

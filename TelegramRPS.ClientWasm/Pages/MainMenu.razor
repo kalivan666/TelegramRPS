@@ -1,0 +1,67 @@
+﻿@page "/"
+@using TelegramRPS.ClientWasm.Services
+@using TelegramRPS.ClientWasm.Shared
+@using TelegramRPS.Shared.Models.Game
+
+@inject TelegramInterop TelegramInterop
+@inject TelegramAuthService TelegramAuthService
+@inject UserProfileService UserProfileService
+@inject GameHubService GameHubService
+@inject NavigationManager NavigationManager
+
+@if (UserProfileService.CurrentUserProfile != null)
+{
+    <TelegramUserInfo />
+
+    <div class="main-menu-container">
+        <img src="images/logo.png" alt="Логотип" class="main-logo" />
+        <h1 class="main-title">Добро пожаловать в Дурак</h1>
+        <p class="main-subtitle">Классическая русская карточная игра</p>
+        <div class="buttons-container">
+            <img src="images/CreateGame.png" alt="Кнопка 1" class="menu-button" @onclick="CreateGameAsync" />
+            <img src="images/JoinGame.png" alt="Кнопка 2" class="menu-button" />
+            <img src="images/MyProfile.png" alt="Кнопка 3" class="menu-button" @onclick="GoToProfile"/>
+        </div>
+    </div>
+}
+else
+{
+    <TelegramAuthRequired />
+}
+
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (TelegramAuthService.CurrentTelegramUser == null)
+        {
+            var data = await TelegramInterop.GetTelegramUserDataAsync();
+            if (data?.User != null)
+            {
+                await TelegramAuthService.SetTelegramUser(data.User);
+                await UserProfileService.AuthenticateAsync(
+                    TelegramAuthService.CurrentTelegramUser.Id,
+                    TelegramAuthService.CurrentTelegramUser.FirstName,
+                    TelegramAuthService.CurrentTelegramUser.LastName,
+                    TelegramAuthService.CurrentTelegramUser.Username,
+                    TelegramAuthService.CurrentTelegramUser.PhotoUrl
+                );
+            }
+        }
+    }
+
+    private async Task GoToProfile()
+    {
+        NavigationManager.NavigateTo("/profile");    
+    }
+
+    private async Task CreateGameAsync()
+    {
+        var userId = TelegramAuthService.CurrentTelegramUser?.Id ?? (long)0;
+        var gameId = await GameHubService.CreateGame(userId);
+        if (gameId != Guid.Empty)
+        {
+            NavigationManager.NavigateTo($"/lobby/{gameId}");
+        }
+    }
+}
