@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "YIZu/X7OBG38dU6tFOUBTwoBzhN42xWoifR1bNnuYnU=",
+  "Hash": "8EQ4q4KuXHWj9Q6DPLKjcL4mYIPXoX0nh/mV6Fh/6LU=",
   "Source": "TelegramRPS.Server",
   "BasePath": "_content/TelegramRPS.Server",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TelegramRPS.Server\\wwwroot",
+      "Source": "TelegramRPS.Server",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\wwwroot\\",
+      "BasePath": "_content/TelegramRPS.Server",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

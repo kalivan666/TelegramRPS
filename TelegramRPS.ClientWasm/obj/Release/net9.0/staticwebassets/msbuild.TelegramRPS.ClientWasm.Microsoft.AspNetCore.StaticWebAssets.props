@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u5tlobabe5</Fingerprint>
-      <Integrity>4gpxx0A6tkdzQ3NLDZiZqBO+szP/XNgbPL3A25zUO+o=</Integrity>
+      <Fingerprint>icb44qj1k9</Fingerprint>
+      <Integrity>cq5CaaLrJ4IfdwJDS/0HhJJgulaoYu9NUipzMqjWFDY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyProfile.css'))</OriginalItemSpec>
@@ -1056,8 +1056,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3fmvbk4swx</Fingerprint>
-      <Integrity>wYEbt8K6XvLQ1ihru6PNT1+1Lp2qMpaFfwwzk4+nwNA=</Integrity>
+      <Fingerprint>fq1oto0qvw</Fingerprint>
+      <Integrity>xzvptYP15qZWCU12aVxfzhjxEPIoKLA//KpZ59cnwYk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\telegram.js'))</OriginalItemSpec>

@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jw6y41dv2s</Fingerprint>
-      <Integrity>jfDGi4oI2CuAZxc5skY+1EmokXQ3Dgh2UbDsBhj9MDM=</Integrity>
+      <Fingerprint>icb44qj1k9</Fingerprint>
+      <Integrity>cq5CaaLrJ4IfdwJDS/0HhJJgulaoYu9NUipzMqjWFDY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyProfile.css'))</OriginalItemSpec>
@@ -197,6 +197,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MyProfile\back.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MyProfile\editAvatar.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TelegramRPS.ClientWasm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>images/MyProfile/editAvatar.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2croaw6ae9</Fingerprint>
+      <Integrity>nrXOEWNa8TWyrh8mNOgh0SebUEUt4/TwUlOyOEDHcuY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MyProfile\editAvatar.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\open-in-telegram.png'))">
       <SourceType>Package</SourceType>
@@ -1038,8 +1056,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3fmvbk4swx</Fingerprint>
-      <Integrity>wYEbt8K6XvLQ1ihru6PNT1+1Lp2qMpaFfwwzk4+nwNA=</Integrity>
+      <Fingerprint>fq1oto0qvw</Fingerprint>
+      <Integrity>xzvptYP15qZWCU12aVxfzhjxEPIoKLA//KpZ59cnwYk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\telegram.js'))</OriginalItemSpec>

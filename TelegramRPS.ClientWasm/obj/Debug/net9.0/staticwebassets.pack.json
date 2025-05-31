@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\MyProfile\\back.png"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\MyProfile\\editAvatar.png",
+      "PackagePath": "staticwebassets\\images\\MyProfile\\editAvatar.png"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },

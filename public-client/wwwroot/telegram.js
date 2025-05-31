@@ -15,6 +15,11 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+
+window.triggerFileInputClick = (element) => {
+    element.click();
+};
+
 function isTelegramWebApp() {
     return window.Telegram
         && window.Telegram.WebApp

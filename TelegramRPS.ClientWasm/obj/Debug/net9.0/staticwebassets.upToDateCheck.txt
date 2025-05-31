@@ -59,6 +59,7 @@ wwwroot\images\JoinGame.png
 wwwroot\images\logo.png
 wwwroot\images\MyProfile.png
 wwwroot\images\MyProfile\back.png
+wwwroot\images\MyProfile\editAvatar.png
 wwwroot\images\open-in-telegram.png
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

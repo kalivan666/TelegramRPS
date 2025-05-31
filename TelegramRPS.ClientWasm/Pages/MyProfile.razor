@@ -1,10 +1,12 @@
 ﻿@page "/profile"
 @using TelegramRPS.ClientWasm.Services
-@inject TelegramAuthService TelegramAuthService
+@inject IJSRuntime js
 @inject UserProfileService UserProfileService
-@inject NavigationManager NavigationManager
 @inject TelegramInterop TelegramInterop
-@implements IDisposable
+@inject TelegramAuthService TelegramAuthService
+@inject NavigationManager NavigationManager
+@inject HttpClient Http
+
 
 @if (UserProfileService.CurrentUserProfile != null)
 {
@@ -12,17 +14,31 @@
         <img src="images/MyProfile/back.png" alt="Назад" class="back-button" @onclick="GoBack" />
         <h1 class="profile-title">Профиль</h1>
 
-
         <div class="profile-avatar-wrapper">
-            <img class="profile-avatar"
-            src="@UserProfileService.CurrentUserProfile.AvatarUrl"
-            alt="Avatar" />
+            <img class="profile-avatar" src="@displayedAvatar" alt="Avatar" />
         </div>
 
-        <inputFile style="display:none" @ref="fileInput" @onchange="OnEditAvatarClicked" />
-        <button class="avatar-edit-button" @onclick="TriggerFileUpload">
+        <label class="avatar-edit-button" for="avatarInput">
             <img src="images/MyProfile/editAvatar.png" alt="Edit" />
-        </button>
+        </label>
+        <InputFile id="avatarInput" style="display:none" OnChange="OnFileSelected" accept="image/png,image/jpeg" />
+
+
+        @if (previewUrl != null)
+        {
+            <div class="avatar-preview-container">
+                <img src="@previewUrl" alt="Preview" style="max-width:150px; max-height:150px; border-radius:50%;" />
+                <div class="avatar-preview-buttons">
+                    <button class="btn btn-success" @onclick="UploadAvatar" disabled="@isUploading">Загрузить</button>
+                    <button class="btn btn-secondary" @onclick="CancelPreview" disabled="@isUploading">Отмена</button>
+                </div>
+            </div>
+        }
+
+        @if (isUploading)
+        {
+            <p>Загрузка...</p>
+        }
 
         <div class="profile-section name-edit-section">
             <span class="profile-display-name">
@@ -31,7 +47,6 @@
             <button class="edit-button" @onclick="ShowEditNameModel">Изменить</button>
         </div>
 
-        <!-- Модальное окно редактирования -->
         @if (_isEditModalVisible)
         {
             <div class="modal-overlay">
@@ -44,18 +59,21 @@
 
     </div>
 }
-
+else
+{
+    <p>Загрузка профиля...</p>
+}
 
 @code {
     private bool _isEditModalVisible = false;
     private string _editedName = "";
-    private ElementReference fileInput;
-    private readonly IJSRuntime js;
+    private string? previewUrl;
+    private bool isUploading = false;
+    private IBrowserFile? selectedFile;
 
-    private async Task TriggerFileUpload()
-    {
-        await js.InvokeVoidAsync("triggerFileInputClick", fileInput);
-    }
+    private string displayedAvatar =>
+        previewUrl ?? UserProfileService.CurrentUserProfile?.AvatarUrl ?? "images/default-avatar.png";
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -76,21 +94,62 @@
                 );
             }
         }
+
+    }
+    private async Task OnFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+
+        if (selectedFile != null)
+        {
+            using var stream = selectedFile.OpenReadStream(1024 * 1024 * 5);
+            var buffer = new byte[selectedFile.Size];
+            await stream.ReadAsync(buffer);
+
+            previewUrl = $"data:{selectedFile.ContentType};base64,{Convert.ToBase64String(buffer)}";
+        }
     }
 
-    private async Task OnEditAvatarClicked(InputFileChangeEventArgs e)
+    private void CancelPreview()
     {
-        UserProfileService.OnUserProfileChanged += StateHasChanged;
+        previewUrl = null;
+        selectedFile = null;
+    }
 
-        var file = e.File;
-        if (file != null)
+    private async Task UploadAvatar()
+    {
+        if (selectedFile == null)
+            return;
+
+        isUploading = true;
+
+        try
         {
-            var newUrl = await UserProfileService.UploadAvatarAsync(file);
-            if (!string.IsNullOrWhiteSpace(newUrl))
+            var content = new MultipartFormDataContent();
+            var streamContent = new StreamContent(selectedFile.OpenReadStream(1024 * 1024 * 15));
+            streamContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(selectedFile.ContentType);
+            content.Add(streamContent, "file", selectedFile.Name);
+
+            var response = await Http.PostAsync("api/profile/avatar", content);
+            if (response.IsSuccessStatusCode)
             {
-                UserProfileService.CurrentUserProfile.AvatarUrl = newUrl;
-                await UserProfileService.UpdateUserProfileAsync(UserProfileService.CurrentUserProfile);
+                var result = await response.Content.ReadFromJsonAsync<UploadAvatarResponse>();
+                if (result != null)
+                {
+                    UserProfileService.CurrentUserProfile.AvatarUrl = result.Url;
+                    await UserProfileService.UpdateUserProfileAsync(UserProfileService.CurrentUserProfile);
+                    previewUrl = null;
+                    selectedFile = null;
+                }
             }
+            else
+            {
+                // Можно добавить уведомление об ошибке
+            }
+        }
+        finally
+        {
+            isUploading = false;
         }
     }
 
@@ -110,7 +169,6 @@
     {
         UserProfileService.OnUserProfileChanged -= StateHasChanged;
     }
-
     private void GoBack()
     {
         NavigationManager.NavigateTo("/");

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\pages\\myprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\pages\\myprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\pages\\mainmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\pages\\mainmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F949C40-95B1-4D92-BAF4-BB01E7295831}|TelegramRPS.Server\\TelegramRPS.Server.csproj|c:\\users\\user\\source\\repos\\telegramrps.server\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F949C40-95B1-4D92-BAF4-BB01E7295831}|TelegramRPS.Server\\TelegramRPS.Server.csproj|solutionrelative:telegramrps.server\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\services\\authhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\services\\authhubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6ACCDDFA-A19A-4179-9A8F-37EE17E8C7F6}|TelegramRPS.Shared\\TelegramRPS.Shared.csproj|c:\\users\\user\\source\\repos\\telegramrps.shared\\models\\httpmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACCDDFA-A19A-4179-9A8F-37EE17E8C7F6}|TelegramRPS.Shared\\TelegramRPS.Shared.csproj|solutionrelative:telegramrps.shared\\models\\httpmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F949C40-95B1-4D92-BAF4-BB01E7295831}|TelegramRPS.Server\\TelegramRPS.Server.csproj|c:\\users\\user\\source\\repos\\telegramrps.server\\hostedservices\\telegrambothostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F949C40-95B1-4D92-BAF4-BB01E7295831}|TelegramRPS.Server\\TelegramRPS.Server.csproj|solutionrelative:telegramrps.server\\hostedservices\\telegrambothostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\telegraminterop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\telegraminterop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\wwwroot\\telegram.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\wwwroot\\telegram.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\wwwroot\\css\\myprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\wwwroot\\css\\myprofile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthHubService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Services\\AuthHubService.cs",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Services\\AuthHubService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Services\\AuthHubService.cs",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\Services\\AuthHubService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Program.cs",
+              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Program.cs",
+              "RelativeToolTip": "TelegramRPS.ClientWasm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:14:20.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TelegramBotHostedService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\HostedServices\\TelegramBotHostedService.cs",
-              "RelativeDocumentMoniker": "TelegramRPS.Server\\HostedServices\\TelegramBotHostedService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\HostedServices\\TelegramBotHostedService.cs",
-              "RelativeToolTip": "TelegramRPS.Server\\HostedServices\\TelegramBotHostedService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:14:19.21Z",
+              "WhenOpened": "2025-05-31T08:19:47.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "telegram.js",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\telegram.js",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\wwwroot\\telegram.js",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\telegram.js",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\wwwroot\\telegram.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-30T17:04:03.852Z",
-              "EditorCaption": ""
+              "Title": "MyProfile.css",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css",
+              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css",
+              "RelativeToolTip": "TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAewAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-31T08:04:38.619Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TelegramInterop.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\TelegramInterop.cs",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\TelegramInterop.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\TelegramInterop.cs",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\TelegramInterop.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Services\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Services\\UserProfileService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Services\\UserProfileService.cs",
+              "RelativeToolTip": "TelegramRPS.ClientWasm\\Services\\UserProfileService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwFIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:03:53.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T07:53:35.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "HttpModels.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Shared\\Models\\HttpModels.cs",
+              "RelativeDocumentMoniker": "TelegramRPS.Shared\\Models\\HttpModels.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Shared\\Models\\HttpModels.cs",
+              "RelativeToolTip": "TelegramRPS.Shared\\Models\\HttpModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:57:44.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MyProfile.razor",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
               "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
               "RelativeToolTip": "TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAYwIQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T17:03:33.498Z",
+              "WhenOpened": "2025-05-31T07:32:02.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainMenu.razor",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T17:03:27.802Z",
+              "DocumentIndex": 2,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "TelegramRPS.Server\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "TelegramRPS.Server\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:25:59.58Z",
               "EditorCaption": ""
             }
           ]

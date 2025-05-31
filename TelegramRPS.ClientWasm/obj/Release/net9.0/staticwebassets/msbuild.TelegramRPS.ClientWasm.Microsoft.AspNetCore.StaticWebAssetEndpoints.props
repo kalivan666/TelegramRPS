@@ -15,14 +15,14 @@
     <StaticWebAssetEndpoint Include="css/MyProfile.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyProfile.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4gpxx0A6tkdzQ3NLDZiZqBO\u002BszP/XNgbPL3A25zUO\u002Bo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3265"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224gpxx0A6tkdzQ3NLDZiZqBO\u002BszP/XNgbPL3A25zUO\u002Bo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 13:40:04 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cq5CaaLrJ4IfdwJDS/0HhJJgulaoYu9NUipzMqjWFDY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3185"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022cq5CaaLrJ4IfdwJDS/0HhJJgulaoYu9NUipzMqjWFDY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 14:44:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="css/MyProfile.u5tlobabe5.css">
+    <StaticWebAssetEndpoint Include="css/MyProfile.icb44qj1k9.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyProfile.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u5tlobabe5"},{"Name":"integrity","Value":"sha256-4gpxx0A6tkdzQ3NLDZiZqBO\u002BszP/XNgbPL3A25zUO\u002Bo="},{"Name":"label","Value":"css/MyProfile.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3265"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224gpxx0A6tkdzQ3NLDZiZqBO\u002BszP/XNgbPL3A25zUO\u002Bo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 13:40:04 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"icb44qj1k9"},{"Name":"integrity","Value":"sha256-cq5CaaLrJ4IfdwJDS/0HhJJgulaoYu9NUipzMqjWFDY="},{"Name":"label","Value":"css/MyProfile.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3185"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022cq5CaaLrJ4IfdwJDS/0HhJJgulaoYu9NUipzMqjWFDY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 14:44:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="css/TelegramAuthRequired.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\TelegramAuthRequired.css'))</AssetFile>
@@ -160,13 +160,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b08g4m3hw5"},{"Name":"integrity","Value":"sha256-dWfgQXyz3d3I/4rcQzzvWuLNafNYqQDdcrJpMysaFEA="},{"Name":"label","Value":"index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"736"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022dWfgQXyz3d3I/4rcQzzvWuLNafNYqQDdcrJpMysaFEA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 17:47:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"736"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022dWfgQXyz3d3I/4rcQzzvWuLNafNYqQDdcrJpMysaFEA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 17:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dWfgQXyz3d3I/4rcQzzvWuLNafNYqQDdcrJpMysaFEA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"736"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022dWfgQXyz3d3I/4rcQzzvWuLNafNYqQDdcrJpMysaFEA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 17:47:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"736"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022dWfgQXyz3d3I/4rcQzzvWuLNafNYqQDdcrJpMysaFEA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 17:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
@@ -696,17 +696,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yqqzb116ya"},{"Name":"integrity","Value":"sha256-KpGMUiJGcO1U\u002BHiiz640vZODQT8l94WHzwplbZteJrU="},{"Name":"label","Value":"lib/bootstrap/dist/js/bootstrap.min.js.map"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"220561"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022KpGMUiJGcO1U\u002BHiiz640vZODQT8l94WHzwplbZteJrU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 09:16:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="telegram.3fmvbk4swx.js">
+    <StaticWebAssetEndpoint Include="telegram.fq1oto0qvw.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\telegram.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3fmvbk4swx"},{"Name":"integrity","Value":"sha256-wYEbt8K6XvLQ1ihru6PNT1\u002B1Lp2qMpaFfwwzk4\u002BnwNA="},{"Name":"label","Value":"telegram.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1223"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wYEbt8K6XvLQ1ihru6PNT1\u002B1Lp2qMpaFfwwzk4\u002BnwNA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 18:24:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fq1oto0qvw"},{"Name":"integrity","Value":"sha256-xzvptYP15qZWCU12aVxfzhjxEPIoKLA//KpZ59cnwYk="},{"Name":"label","Value":"telegram.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1300"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xzvptYP15qZWCU12aVxfzhjxEPIoKLA//KpZ59cnwYk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 17:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="telegram.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\telegram.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wYEbt8K6XvLQ1ihru6PNT1\u002B1Lp2qMpaFfwwzk4\u002BnwNA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1223"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022wYEbt8K6XvLQ1ihru6PNT1\u002B1Lp2qMpaFfwwzk4\u002BnwNA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 28 May 2025 18:24:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xzvptYP15qZWCU12aVxfzhjxEPIoKLA//KpZ59cnwYk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1300"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022xzvptYP15qZWCU12aVxfzhjxEPIoKLA//KpZ59cnwYk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 30 May 2025 17:02:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="TelegramRPS.ClientWasm.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TelegramRPS.ClientWasm.styles.css'))</AssetFile>

@@ -69,3 +69,4 @@ C:\Users\USER\source\repos\TelegramRPS.Server\obj\Release\net8.0\refint\Telegram
 C:\Users\USER\source\repos\TelegramRPS.Server\obj\Release\net8.0\TelegramRPS.Server.pdb
 C:\Users\USER\source\repos\TelegramRPS.Server\obj\Release\net8.0\TelegramRPS.Server.genruntimeconfig.cache
 C:\Users\USER\source\repos\TelegramRPS.Server\obj\Release\net8.0\ref\TelegramRPS.Server.dll
+C:\Users\USER\source\repos\TelegramRPS.Server\bin\Release\net8.0\TelegramRPS.Server.staticwebassets.runtime.json
