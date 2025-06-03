@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H27qkpbzI52dWXoo6LAf9VXIkQQC+Ub3UTzawMFdLX4=",
+  "Hash": "0fOL5J24oAa349foIy5ww4YKRsDBnRBovwLGe9zqjNY=",
   "Source": "TelegramRPS.ClientWasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "na0xqs6b7r",
-      "Integrity": "v+lFkc8rzSAL72YjBNbDhZxxwUdj8RYpraLNEZNQ3UI=",
+      "Fingerprint": "ezipinxl06",
+      "Integrity": "pnWXF0Nes5j0L+/f6jBU4BWQw6Icdbn9PIw+t1OYbgs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Release\\net9.0\\blazor.boot.json"
@@ -4441,8 +4441,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "mucpyy9xu9",
-      "Integrity": "svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8=",
+      "Fingerprint": "a1caxktoji",
+      "Integrity": "kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Release\\net9.0\\TelegramRPS.ClientWasm.pdb"
@@ -4462,8 +4462,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "3mluykexs7",
-      "Integrity": "6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA=",
+      "Fingerprint": "l6keugtu9b",
+      "Integrity": "UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\webcil\\TelegramRPS.ClientWasm.wasm"
@@ -4483,8 +4483,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "gppjboz8fk",
-      "Integrity": "5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY=",
+      "Fingerprint": "txsi9vaua8",
+      "Integrity": "AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Shared\\bin\\Release\\net8.0\\TelegramRPS.Shared.pdb"
@@ -4504,8 +4504,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "4bmqoyjy66",
-      "Integrity": "cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs=",
+      "Fingerprint": "0w0jjfldlw",
+      "Integrity": "wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\webcil\\TelegramRPS.Shared.wasm"
@@ -4763,12 +4763,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Xml.XPath.wasm"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-gppjboz8fk.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-txsi9vaua8.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/TelegramRPS.Shared#[.{fingerprint=gppjboz8fk}]!.pdb.gz",
+      "RelativePath": "_framework/TelegramRPS.Shared#[.{fingerprint=txsi9vaua8}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4777,8 +4777,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vt22cs39nf",
-      "Integrity": "LZmQGuwo/QiLHDI0cc6s+98hWgi9Afn1X3gpLinoF3M=",
+      "Fingerprint": "j700370tsz",
+      "Integrity": "D6BMixWIubBNg4p1kqmCqIEn6PEocPCF6hrDsHUXECw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.pdb"
@@ -4803,6 +4803,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Web.HttpUtility.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1vwx4r6ykh-gtwfole1e6.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/transfer#[.{fingerprint=gtwfole1e6}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\transfer.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hwkd97xq0x",
+      "Integrity": "75/9ULIjY9ruW3LkU09/Ov6KiNtKSG10CpuUz9SgynM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\transfer.svg"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1wo750znq9-lcd1t2u6c8.gz",
@@ -4847,12 +4868,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.wasm"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-ktolb1f2mf.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-42u22tbvig.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/main#[.{fingerprint=ktolb1f2mf}]?.css.gz",
+      "RelativePath": "css/main#[.{fingerprint=42u22tbvig}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4861,8 +4882,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5tkoqm0r9q",
-      "Integrity": "WbG376JCGxY2mKMU+egiQs4dEmE5CnZ+5iUcZZUT5tU=",
+      "Fingerprint": "xp11zj9f5u",
+      "Integrity": "C8KZKncu86SIBfpralf8nuMPhu8fu2NS81G/XsfQ5n8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css"
@@ -5582,7 +5603,7 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.ObjectModel.wasm"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\6jyn049yhl-na0xqs6b7r.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\6jyn049yhl-ezipinxl06.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
@@ -5596,8 +5617,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f6w29h8hda",
-      "Integrity": "maMiE381Tsihk5F9ZlWRsx5TNT8zW94gBZ+iGrrxlQU=",
+      "Fingerprint": "110r4xx7ns",
+      "Integrity": "5bA02OhF4MQ1mEornDDyoibdJ2ncLog50yhUwBbT+7Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -5666,12 +5687,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-sb76hmyj1u.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-qruxhhq461.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=sb76hmyj1u}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=qruxhhq461}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5680,8 +5701,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "56gm0qk6pr",
-      "Integrity": "XWMcDk2iDCBVXAq4bTNPiSppmsFCBw/Nh9o93+Lmp7s=",
+      "Fingerprint": "6jw4hhma48",
+      "Integrity": "svIpruVB4+NFPclRKSvS3EtykaG71zNTSXIvzm8FLtA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\index.html"
@@ -5750,12 +5771,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.wasm"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-3mluykexs7.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-l6keugtu9b.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/TelegramRPS.ClientWasm#[.{fingerprint=3mluykexs7}]!.wasm.gz",
+      "RelativePath": "_framework/TelegramRPS.ClientWasm#[.{fingerprint=l6keugtu9b}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5764,8 +5785,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.ClientWasm.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b7kup0zoss",
-      "Integrity": "OVUoqmTHJRSAwCfC4U15RVBWeSV2YncbQqySQmG2pAs=",
+      "Fingerprint": "1seuwy7oip",
+      "Integrity": "rwHHq3a8SUuYb35Yih607VB4eY/Rb8QHaeRRO3nRHhE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.ClientWasm.wasm"
@@ -6336,6 +6357,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.IO.Compression.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ayuo2t8fzx-p2gl4jt0qd.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "images/back#[.{fingerprint=p2gl4jt0qd}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\back.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gyr7ovyc88",
+      "Integrity": "SJ05WE3vzOYybV85EiQDhWgvntPkLY2GTov1CkpQ8NA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\back.svg"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\b0vnn3jgse-lh20ntqzs7.gz",
@@ -7157,6 +7199,27 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.wasm"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\f6qae94tkr-6hk0hv410f.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/Rooms#[.{fingerprint=6hk0hv410f}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\Rooms.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gmo8l8mcdu",
+      "Integrity": "WByPV0lGoGO/pjzr+DasVyg68HH5PqvorPyI2K1+KRk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\Rooms.css"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\fbas5aabzi-dvarvms6fh.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
@@ -7218,6 +7281,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\fgkcmqhhkp-bdnd7uqiht.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/GameLobby#[.{fingerprint=bdnd7uqiht}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cvo7qxij2y",
+      "Integrity": "qNeGUxaaeTxafN/EQWpWQ9zV8aiRrMA8tw6BEuzf7Ls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\flaa22wsmy-2g0irmiaku.gz",
@@ -8186,6 +8270,27 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Runtime.Loader.wasm"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\mnfubznqg1-97rgnx3nmf.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "images/ListLobby/Player#[.{fingerprint=97rgnx3nmf}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\Player.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g1l4dfyxv9",
+      "Integrity": "fJPm2yB7sZWqT4dZcISD1sYmodL25LpUDIvcjP6RkgE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\Player.svg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\mqu1locdob-f0230rgpv5.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
@@ -8690,6 +8795,27 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\pnx86cj8wd-dn4g6xv4a7.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "images/ListLobby/refresh#[.{fingerprint=dn4g6xv4a7}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\refresh.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "akkuzveb4b",
+      "Integrity": "Zr2/uTzj6kOSwDchC2QfBzfkScdG7rccU0MPAOIMDi4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\refresh.svg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\po95qo9osd-dw9trzj7vz.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
@@ -8795,6 +8921,27 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.wasm"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\qwvkzq9kpw-bkwljj59qz.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/classic#[.{fingerprint=bkwljj59qz}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\classic.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9d3xbac5ez",
+      "Integrity": "sx0+i1WdIALkcCG85hyghF2CuV8+68UHuxMdal+2bmk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\classic.svg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\r97dcr3c9j-tdbxkamptv.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Discovered",
@@ -8816,12 +8963,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-4bmqoyjy66.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-0w0jjfldlw.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/TelegramRPS.Shared#[.{fingerprint=4bmqoyjy66}]!.wasm.gz",
+      "RelativePath": "_framework/TelegramRPS.Shared#[.{fingerprint=0w0jjfldlw}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8830,8 +8977,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kcxupxemzo",
-      "Integrity": "VEEFoa//pphnwv4FwpcKlGC6tbJUDaQRIStIM67Eq+o=",
+      "Fingerprint": "53t7630cxl",
+      "Integrity": "/77A8PpD80eQlSEbEMypWKG0RHhh3azCSf25v+ULR7s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.wasm"
@@ -9255,6 +9402,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\dotnet.native.js"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ubpn8k6r4h-pfci342kya.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/36#[.{fingerprint=pfci342kya}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\36.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wokyfptves",
+      "Integrity": "QKCPCiwTtiEBZ9YvHMmqv0g5V22Jjq3DVWO/Xzm7UhM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\36.svg"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\uggxiid0wa-nkebuzz0o3.gz",
@@ -9719,12 +9887,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.wasm"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-mucpyy9xu9.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-a1caxktoji.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/TelegramRPS.ClientWasm#[.{fingerprint=mucpyy9xu9}]!.pdb.gz",
+      "RelativePath": "_framework/TelegramRPS.ClientWasm#[.{fingerprint=a1caxktoji}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9733,8 +9901,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.ClientWasm.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "l3u5v3n4g1",
-      "Integrity": "X/2p80Lgcvf2mhp1geqstylV8dr9YIO+pOjjXmbjsvs=",
+      "Fingerprint": "lh60hm53h9",
+      "Integrity": "2fmoB8xu+8JJnf7t3p3VeDoHoEPt5E6NUMH9MB1vaGM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.ClientWasm.pdb"
@@ -9845,6 +10013,27 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Security.SecureString.wasm"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\x50k3eizid-k7xqfkpuj9.gz",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/24#[.{fingerprint=k7xqfkpuj9}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\24.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xo1m5s6k0y",
+      "Integrity": "ESeJjnywpxZJUk9XApiiPJmojKzFCd/d/ZwTu6e+4Tw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\24.svg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\x9fjmz7jeu-rtp8879em7.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Computed",
@@ -9908,12 +10097,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\System.Data.wasm"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-soe2lfvs0v.gz",
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-vonw3chfua.gz",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/MyProfile#[.{fingerprint=soe2lfvs0v}]?.css.gz",
+      "RelativePath": "css/MyProfile#[.{fingerprint=vonw3chfua}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9922,8 +10111,8 @@
       "RelatedAsset": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "n62cz3sq23",
-      "Integrity": "8Tow1g+3qZvXHdDYAmB69qKuM0ZmVn0pxRttXOeOPRk=",
+      "Fingerprint": "nztlwsky1t",
+      "Integrity": "7aSLPzCnNPSaORi3KVUwTS4D5hZzgXSX0dK2AyKZ2c0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css"
@@ -10265,6 +10454,27 @@
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\scopedcss\\projectbundle\\TelegramRPS.ClientWasm.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/GameLobby#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bdnd7uqiht",
+      "Integrity": "j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\GameLobby.css"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Discovered",
@@ -10279,8 +10489,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ktolb1f2mf",
-      "Integrity": "6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o=",
+      "Fingerprint": "42u22tbvig",
+      "Integrity": "rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\main.css"
@@ -10321,11 +10531,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "soe2lfvs0v",
-      "Integrity": "JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ=",
+      "Fingerprint": "vonw3chfua",
+      "Integrity": "EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\MyProfile.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\Rooms.css",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/Rooms#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6hk0hv410f",
+      "Integrity": "qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Rooms.css"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\TelegramAuthRequired.css",
@@ -10412,6 +10643,27 @@
       "OriginalItemSpec": "wwwroot\\icon-192.png"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\back.svg",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/back#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p2gl4jt0qd",
+      "Integrity": "XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\back.svg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\CreateGame.png",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Discovered",
@@ -10494,6 +10746,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\JoinGame.svg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\Player.svg",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/ListLobby/Player#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "97rgnx3nmf",
+      "Integrity": "S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ListLobby\\Player.svg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\refresh.svg",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/ListLobby/refresh#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dn4g6xv4a7",
+      "Integrity": "iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ListLobby\\refresh.svg"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\logo.png",
@@ -10643,6 +10937,90 @@
       "OriginalItemSpec": "wwwroot\\images\\open-in-telegram.png"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\24.svg",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/24#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k7xqfkpuj9",
+      "Integrity": "oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SettingsLobby\\24.svg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\36.svg",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/36#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pfci342kya",
+      "Integrity": "daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SettingsLobby\\36.svg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\classic.svg",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/classic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bkwljj59qz",
+      "Integrity": "G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SettingsLobby\\classic.svg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\transfer.svg",
+      "SourceId": "TelegramRPS.ClientWasm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/SettingsLobby/transfer#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gtwfole1e6",
+      "Integrity": "HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\SettingsLobby\\transfer.svg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\index.html",
       "SourceId": "TelegramRPS.ClientWasm",
       "SourceType": "Discovered",
@@ -10657,8 +11035,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sb76hmyj1u",
-      "Integrity": "aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k=",
+      "Fingerprint": "qruxhhq461",
+      "Integrity": "+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -11629,11 +12007,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v+lFkc8rzSAL72YjBNbDhZxxwUdj8RYpraLNEZNQ3UI=\""
+          "Value": "\"pnWXF0Nes5j0L+/f6jBU4BWQw6Icdbn9PIw+t1OYbgs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11643,18 +12021,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-v+lFkc8rzSAL72YjBNbDhZxxwUdj8RYpraLNEZNQ3UI="
+          "Value": "sha256-pnWXF0Nes5j0L+/f6jBU4BWQw6Icdbn9PIw+t1OYbgs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\6jyn049yhl-na0xqs6b7r.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\6jyn049yhl-ezipinxl06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000076970443"
+          "Quality": "0.000076988221"
         }
       ],
       "ResponseHeaders": [
@@ -11664,15 +12042,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12991"
+          "Value": "12988"
         },
         {
           "Name": "ETag",
-          "Value": "\"maMiE381Tsihk5F9ZlWRsx5TNT8zW94gBZ+iGrrxlQU=\""
+          "Value": "\"5bA02OhF4MQ1mEornDDyoibdJ2ncLog50yhUwBbT+7Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:06:37 GMT"
+          "Value": "Tue, 03 Jun 2025 09:51:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11692,19 +12070,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"v+lFkc8rzSAL72YjBNbDhZxxwUdj8RYpraLNEZNQ3UI=\""
+          "Value": "W/\"pnWXF0Nes5j0L+/f6jBU4BWQw6Icdbn9PIw+t1OYbgs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-v+lFkc8rzSAL72YjBNbDhZxxwUdj8RYpraLNEZNQ3UI="
+          "Value": "sha256-pnWXF0Nes5j0L+/f6jBU4BWQw6Icdbn9PIw+t1OYbgs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\6jyn049yhl-na0xqs6b7r.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\6jyn049yhl-ezipinxl06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11713,7 +12091,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12991"
+          "Value": "12988"
         },
         {
           "Name": "Content-Type",
@@ -11721,11 +12099,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"maMiE381Tsihk5F9ZlWRsx5TNT8zW94gBZ+iGrrxlQU=\""
+          "Value": "\"5bA02OhF4MQ1mEornDDyoibdJ2ncLog50yhUwBbT+7Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:06:37 GMT"
+          "Value": "Tue, 03 Jun 2025 09:51:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11743,7 +12121,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-maMiE381Tsihk5F9ZlWRsx5TNT8zW94gBZ+iGrrxlQU="
+          "Value": "sha256-5bA02OhF4MQ1mEornDDyoibdJ2ncLog50yhUwBbT+7Q="
         }
       ]
     },
@@ -73869,168 +74247,7 @@
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.ClientWasm.3mluykexs7.wasm",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.ClientWasm.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49429"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3mluykexs7"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TelegramRPS.ClientWasm.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TelegramRPS.ClientWasm.3mluykexs7.wasm",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-3mluykexs7.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000049534377"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20187"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OVUoqmTHJRSAwCfC4U15RVBWeSV2YncbQqySQmG2pAs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3mluykexs7"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TelegramRPS.ClientWasm.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TelegramRPS.ClientWasm.3mluykexs7.wasm.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-3mluykexs7.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20187"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OVUoqmTHJRSAwCfC4U15RVBWeSV2YncbQqySQmG2pAs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3mluykexs7"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TelegramRPS.ClientWasm.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OVUoqmTHJRSAwCfC4U15RVBWeSV2YncbQqySQmG2pAs="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TelegramRPS.ClientWasm.mucpyy9xu9.pdb",
+      "Route": "_framework/TelegramRPS.ClientWasm.a1caxktoji.pdb",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.ClientWasm.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -74040,7 +74257,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35184"
+          "Value": "50244"
         },
         {
           "Name": "Content-Type",
@@ -74048,11 +74265,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8=\""
+          "Value": "\"kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:22 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74062,7 +74279,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mucpyy9xu9"
+          "Value": "a1caxktoji"
         },
         {
           "Name": "label",
@@ -74070,18 +74287,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8="
+          "Value": "sha256-kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.ClientWasm.mucpyy9xu9.pdb",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-mucpyy9xu9.gz",
+      "Route": "_framework/TelegramRPS.ClientWasm.a1caxktoji.pdb",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-a1caxktoji.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000039854928"
+          "Quality": "0.000026942558"
         }
       ],
       "ResponseHeaders": [
@@ -74091,15 +74308,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25090"
+          "Value": "37115"
         },
         {
           "Name": "ETag",
-          "Value": "\"X/2p80Lgcvf2mhp1geqstylV8dr9YIO+pOjjXmbjsvs=\""
+          "Value": "\"2fmoB8xu+8JJnf7t3p3VeDoHoEPt5E6NUMH9MB1vaGM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74119,13 +74336,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8=\""
+          "Value": "W/\"kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mucpyy9xu9"
+          "Value": "a1caxktoji"
         },
         {
           "Name": "label",
@@ -74133,13 +74350,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8="
+          "Value": "sha256-kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.ClientWasm.mucpyy9xu9.pdb.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-mucpyy9xu9.gz",
+      "Route": "_framework/TelegramRPS.ClientWasm.a1caxktoji.pdb.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-a1caxktoji.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74148,7 +74365,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25090"
+          "Value": "37115"
         },
         {
           "Name": "Content-Type",
@@ -74156,11 +74373,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X/2p80Lgcvf2mhp1geqstylV8dr9YIO+pOjjXmbjsvs=\""
+          "Value": "\"2fmoB8xu+8JJnf7t3p3VeDoHoEPt5E6NUMH9MB1vaGM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74178,7 +74395,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mucpyy9xu9"
+          "Value": "a1caxktoji"
         },
         {
           "Name": "label",
@@ -74186,7 +74403,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X/2p80Lgcvf2mhp1geqstylV8dr9YIO+pOjjXmbjsvs="
+          "Value": "sha256-2fmoB8xu+8JJnf7t3p3VeDoHoEPt5E6NUMH9MB1vaGM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TelegramRPS.ClientWasm.l6keugtu9b.wasm",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.ClientWasm.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:54:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6keugtu9b"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TelegramRPS.ClientWasm.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TelegramRPS.ClientWasm.l6keugtu9b.wasm",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-l6keugtu9b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000033394557"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29944"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rwHHq3a8SUuYb35Yih607VB4eY/Rb8QHaeRRO3nRHhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6keugtu9b"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TelegramRPS.ClientWasm.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TelegramRPS.ClientWasm.l6keugtu9b.wasm.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-l6keugtu9b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rwHHq3a8SUuYb35Yih607VB4eY/Rb8QHaeRRO3nRHhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6keugtu9b"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TelegramRPS.ClientWasm.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rwHHq3a8SUuYb35Yih607VB4eY/Rb8QHaeRRO3nRHhE="
         }
       ]
     },
@@ -74201,7 +74579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "35184"
+          "Value": "50244"
         },
         {
           "Name": "Content-Type",
@@ -74209,11 +74587,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8=\""
+          "Value": "\"kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:22 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74223,18 +74601,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8="
+          "Value": "sha256-kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc="
         }
       ]
     },
     {
       "Route": "_framework/TelegramRPS.ClientWasm.pdb",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-mucpyy9xu9.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-a1caxktoji.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000039854928"
+          "Quality": "0.000026942558"
         }
       ],
       "ResponseHeaders": [
@@ -74244,15 +74622,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25090"
+          "Value": "37115"
         },
         {
           "Name": "ETag",
-          "Value": "\"X/2p80Lgcvf2mhp1geqstylV8dr9YIO+pOjjXmbjsvs=\""
+          "Value": "\"2fmoB8xu+8JJnf7t3p3VeDoHoEPt5E6NUMH9MB1vaGM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74272,19 +74650,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8=\""
+          "Value": "W/\"kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8="
+          "Value": "sha256-kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc="
         }
       ]
     },
     {
       "Route": "_framework/TelegramRPS.ClientWasm.pdb.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-mucpyy9xu9.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\wl40tfnr9x-a1caxktoji.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74293,7 +74671,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25090"
+          "Value": "37115"
         },
         {
           "Name": "Content-Type",
@@ -74301,11 +74679,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"X/2p80Lgcvf2mhp1geqstylV8dr9YIO+pOjjXmbjsvs=\""
+          "Value": "\"2fmoB8xu+8JJnf7t3p3VeDoHoEPt5E6NUMH9MB1vaGM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74323,7 +74701,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X/2p80Lgcvf2mhp1geqstylV8dr9YIO+pOjjXmbjsvs="
+          "Value": "sha256-2fmoB8xu+8JJnf7t3p3VeDoHoEPt5E6NUMH9MB1vaGM="
         }
       ]
     },
@@ -74338,7 +74716,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49429"
+          "Value": "79125"
         },
         {
           "Name": "Content-Type",
@@ -74346,11 +74724,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA=\""
+          "Value": "\"UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:23 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74360,18 +74738,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA="
+          "Value": "sha256-UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI="
         }
       ]
     },
     {
       "Route": "_framework/TelegramRPS.ClientWasm.wasm",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-3mluykexs7.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-l6keugtu9b.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000049534377"
+          "Quality": "0.000033394557"
         }
       ],
       "ResponseHeaders": [
@@ -74381,15 +74759,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20187"
+          "Value": "29944"
         },
         {
           "Name": "ETag",
-          "Value": "\"OVUoqmTHJRSAwCfC4U15RVBWeSV2YncbQqySQmG2pAs=\""
+          "Value": "\"rwHHq3a8SUuYb35Yih607VB4eY/Rb8QHaeRRO3nRHhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74409,19 +74787,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA=\""
+          "Value": "W/\"UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA="
+          "Value": "sha256-UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI="
         }
       ]
     },
     {
       "Route": "_framework/TelegramRPS.ClientWasm.wasm.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-3mluykexs7.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\78idjp1u3e-l6keugtu9b.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74430,7 +74808,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20187"
+          "Value": "29944"
         },
         {
           "Name": "Content-Type",
@@ -74438,11 +74816,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OVUoqmTHJRSAwCfC4U15RVBWeSV2YncbQqySQmG2pAs=\""
+          "Value": "\"rwHHq3a8SUuYb35Yih607VB4eY/Rb8QHaeRRO3nRHhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:13:24 GMT"
+          "Value": "Tue, 03 Jun 2025 09:54:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74460,12 +74838,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OVUoqmTHJRSAwCfC4U15RVBWeSV2YncbQqySQmG2pAs="
+          "Value": "sha256-rwHHq3a8SUuYb35Yih607VB4eY/Rb8QHaeRRO3nRHhE="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.Shared.4bmqoyjy66.wasm",
+      "Route": "_framework/TelegramRPS.Shared.0w0jjfldlw.wasm",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -74475,7 +74853,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13589"
+          "Value": "14613"
         },
         {
           "Name": "Content-Type",
@@ -74483,11 +74861,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs=\""
+          "Value": "\"wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:49 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74497,7 +74875,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4bmqoyjy66"
+          "Value": "0w0jjfldlw"
         },
         {
           "Name": "label",
@@ -74505,18 +74883,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs="
+          "Value": "sha256-wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.Shared.4bmqoyjy66.wasm",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-4bmqoyjy66.gz",
+      "Route": "_framework/TelegramRPS.Shared.0w0jjfldlw.wasm",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-0w0jjfldlw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000171850833"
+          "Quality": "0.000160230732"
         }
       ],
       "ResponseHeaders": [
@@ -74526,15 +74904,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5818"
+          "Value": "6240"
         },
         {
           "Name": "ETag",
-          "Value": "\"VEEFoa//pphnwv4FwpcKlGC6tbJUDaQRIStIM67Eq+o=\""
+          "Value": "\"/77A8PpD80eQlSEbEMypWKG0RHhh3azCSf25v+ULR7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74554,13 +74932,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs=\""
+          "Value": "W/\"wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4bmqoyjy66"
+          "Value": "0w0jjfldlw"
         },
         {
           "Name": "label",
@@ -74568,13 +74946,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs="
+          "Value": "sha256-wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.Shared.4bmqoyjy66.wasm.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-4bmqoyjy66.gz",
+      "Route": "_framework/TelegramRPS.Shared.0w0jjfldlw.wasm.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-0w0jjfldlw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74583,7 +74961,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5818"
+          "Value": "6240"
         },
         {
           "Name": "Content-Type",
@@ -74591,11 +74969,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VEEFoa//pphnwv4FwpcKlGC6tbJUDaQRIStIM67Eq+o=\""
+          "Value": "\"/77A8PpD80eQlSEbEMypWKG0RHhh3azCSf25v+ULR7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74613,7 +74991,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4bmqoyjy66"
+          "Value": "0w0jjfldlw"
         },
         {
           "Name": "label",
@@ -74621,12 +74999,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VEEFoa//pphnwv4FwpcKlGC6tbJUDaQRIStIM67Eq+o="
+          "Value": "sha256-/77A8PpD80eQlSEbEMypWKG0RHhh3azCSf25v+ULR7s="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.Shared.gppjboz8fk.pdb",
+      "Route": "_framework/TelegramRPS.Shared.pdb",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -74636,7 +75014,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14872"
+          "Value": "15532"
         },
         {
           "Name": "Content-Type",
@@ -74644,40 +75022,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY=\""
+          "Value": "\"AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:45 GMT"
+          "Value": "Tue, 03 Jun 2025 07:17:51 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "gppjboz8fk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TelegramRPS.Shared.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY="
+          "Value": "sha256-AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.Shared.gppjboz8fk.pdb",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-gppjboz8fk.gz",
+      "Route": "_framework/TelegramRPS.Shared.pdb",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-txsi9vaua8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000121891760"
+          "Quality": "0.000118063754"
         }
       ],
       "ResponseHeaders": [
@@ -74687,19 +75057,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8203"
+          "Value": "8469"
         },
         {
           "Name": "ETag",
-          "Value": "\"LZmQGuwo/QiLHDI0cc6s+98hWgi9Afn1X3gpLinoF3M=\""
+          "Value": "\"D6BMixWIubBNg4p1kqmCqIEn6PEocPCF6hrDsHUXECw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -74715,27 +75085,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY=\""
+          "Value": "W/\"AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "gppjboz8fk"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/TelegramRPS.Shared.pdb"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY="
+          "Value": "sha256-AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4="
         }
       ]
     },
     {
-      "Route": "_framework/TelegramRPS.Shared.gppjboz8fk.pdb.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-gppjboz8fk.gz",
+      "Route": "_framework/TelegramRPS.Shared.pdb.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-txsi9vaua8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -74744,7 +75106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8203"
+          "Value": "8469"
         },
         {
           "Name": "Content-Type",
@@ -74752,11 +75114,164 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LZmQGuwo/QiLHDI0cc6s+98hWgi9Afn1X3gpLinoF3M=\""
+          "Value": "\"D6BMixWIubBNg4p1kqmCqIEn6PEocPCF6hrDsHUXECw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D6BMixWIubBNg4p1kqmCqIEn6PEocPCF6hrDsHUXECw="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TelegramRPS.Shared.txsi9vaua8.pdb",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 07:17:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txsi9vaua8"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TelegramRPS.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TelegramRPS.Shared.txsi9vaua8.pdb",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-txsi9vaua8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000118063754"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D6BMixWIubBNg4p1kqmCqIEn6PEocPCF6hrDsHUXECw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txsi9vaua8"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/TelegramRPS.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/TelegramRPS.Shared.txsi9vaua8.pdb.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-txsi9vaua8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D6BMixWIubBNg4p1kqmCqIEn6PEocPCF6hrDsHUXECw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74774,7 +75289,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gppjboz8fk"
+          "Value": "txsi9vaua8"
         },
         {
           "Name": "label",
@@ -74782,144 +75297,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LZmQGuwo/QiLHDI0cc6s+98hWgi9Afn1X3gpLinoF3M="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TelegramRPS.Shared.pdb",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\bin\\Release\\net9.0\\wwwroot\\_framework\\TelegramRPS.Shared.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14872"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TelegramRPS.Shared.pdb",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-gppjboz8fk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000121891760"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8203"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LZmQGuwo/QiLHDI0cc6s+98hWgi9Afn1X3gpLinoF3M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/TelegramRPS.Shared.pdb.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1mt2ovriri-gppjboz8fk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8203"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LZmQGuwo/QiLHDI0cc6s+98hWgi9Afn1X3gpLinoF3M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LZmQGuwo/QiLHDI0cc6s+98hWgi9Afn1X3gpLinoF3M="
+          "Value": "sha256-D6BMixWIubBNg4p1kqmCqIEn6PEocPCF6hrDsHUXECw="
         }
       ]
     },
@@ -74934,7 +75312,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13589"
+          "Value": "14613"
         },
         {
           "Name": "Content-Type",
@@ -74942,11 +75320,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs=\""
+          "Value": "\"wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:49 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74956,18 +75334,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs="
+          "Value": "sha256-wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38="
         }
       ]
     },
     {
       "Route": "_framework/TelegramRPS.Shared.wasm",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-4bmqoyjy66.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-0w0jjfldlw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000171850833"
+          "Quality": "0.000160230732"
         }
       ],
       "ResponseHeaders": [
@@ -74977,15 +75355,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5818"
+          "Value": "6240"
         },
         {
           "Name": "ETag",
-          "Value": "\"VEEFoa//pphnwv4FwpcKlGC6tbJUDaQRIStIM67Eq+o=\""
+          "Value": "\"/77A8PpD80eQlSEbEMypWKG0RHhh3azCSf25v+ULR7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75005,19 +75383,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs=\""
+          "Value": "W/\"wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs="
+          "Value": "sha256-wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38="
         }
       ]
     },
     {
       "Route": "_framework/TelegramRPS.Shared.wasm.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-4bmqoyjy66.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\rbnq3cinol-0w0jjfldlw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -75026,7 +75404,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5818"
+          "Value": "6240"
         },
         {
           "Name": "Content-Type",
@@ -75034,11 +75412,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VEEFoa//pphnwv4FwpcKlGC6tbJUDaQRIStIM67Eq+o=\""
+          "Value": "\"/77A8PpD80eQlSEbEMypWKG0RHhh3azCSf25v+ULR7s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 11:50:50 GMT"
+          "Value": "Tue, 03 Jun 2025 07:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75056,7 +75434,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VEEFoa//pphnwv4FwpcKlGC6tbJUDaQRIStIM67Eq+o="
+          "Value": "sha256-/77A8PpD80eQlSEbEMypWKG0RHhh3azCSf25v+ULR7s="
         }
       ]
     },
@@ -75359,13 +75737,13 @@
       ]
     },
     {
-      "Route": "css/main.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-ktolb1f2mf.gz",
+      "Route": "css/GameLobby.bdnd7uqiht.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\fgkcmqhhkp-bdnd7uqiht.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.008849557522"
+          "Quality": "0.000394321767"
         }
       ],
       "ResponseHeaders": [
@@ -75375,15 +75753,176 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "112"
+          "Value": "2535"
         },
         {
           "Name": "ETag",
-          "Value": "\"WbG376JCGxY2mKMU+egiQs4dEmE5CnZ+5iUcZZUT5tU=\""
+          "Value": "\"qNeGUxaaeTxafN/EQWpWQ9zV8aiRrMA8tw6BEuzf7Ls=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:11:10 GMT"
+          "Value": "Tue, 03 Jun 2025 09:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bdnd7uqiht"
+        },
+        {
+          "Name": "label",
+          "Value": "css/GameLobby.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8="
+        }
+      ]
+    },
+    {
+      "Route": "css/GameLobby.bdnd7uqiht.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bdnd7uqiht"
+        },
+        {
+          "Name": "label",
+          "Value": "css/GameLobby.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8="
+        }
+      ]
+    },
+    {
+      "Route": "css/GameLobby.bdnd7uqiht.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\fgkcmqhhkp-bdnd7uqiht.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNeGUxaaeTxafN/EQWpWQ9zV8aiRrMA8tw6BEuzf7Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bdnd7uqiht"
+        },
+        {
+          "Name": "label",
+          "Value": "css/GameLobby.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNeGUxaaeTxafN/EQWpWQ9zV8aiRrMA8tw6BEuzf7Ls="
+        }
+      ]
+    },
+    {
+      "Route": "css/GameLobby.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\fgkcmqhhkp-bdnd7uqiht.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000394321767"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2535"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNeGUxaaeTxafN/EQWpWQ9zV8aiRrMA8tw6BEuzf7Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75403,18 +75942,163 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o=\""
+          "Value": "W/\"j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o="
+          "Value": "sha256-j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8="
         }
       ]
     },
     {
-      "Route": "css/main.css",
+      "Route": "css/GameLobby.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j3YZvbAAFxg2xFnk5W3zO2MQqkIdyhGPibS6q1mMKZ8="
+        }
+      ]
+    },
+    {
+      "Route": "css/GameLobby.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\fgkcmqhhkp-bdnd7uqiht.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qNeGUxaaeTxafN/EQWpWQ9zV8aiRrMA8tw6BEuzf7Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 09:44:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qNeGUxaaeTxafN/EQWpWQ9zV8aiRrMA8tw6BEuzf7Ls="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.42u22tbvig.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-42u22tbvig.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005988023952"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C8KZKncu86SIBfpralf8nuMPhu8fu2NS81G/XsfQ5n8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "42u22tbvig"
+        },
+        {
+          "Name": "label",
+          "Value": "css/main.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.42u22tbvig.css",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -75424,7 +76108,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "172"
+          "Value": "360"
         },
         {
           "Name": "Content-Type",
@@ -75432,121 +76116,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o=\""
+          "Value": "\"rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:11:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.css.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-ktolb1f2mf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "112"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WbG376JCGxY2mKMU+egiQs4dEmE5CnZ+5iUcZZUT5tU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:11:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WbG376JCGxY2mKMU+egiQs4dEmE5CnZ+5iUcZZUT5tU="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.ktolb1f2mf.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-ktolb1f2mf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.008849557522"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "112"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WbG376JCGxY2mKMU+egiQs4dEmE5CnZ+5iUcZZUT5tU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:11:10 GMT"
+          "Value": "Sat, 31 May 2025 16:19:19 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ktolb1f2mf"
+          "Value": "42u22tbvig"
         },
         {
           "Name": "label",
@@ -75554,13 +76138,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o="
+          "Value": "sha256-rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU="
         }
       ]
     },
     {
-      "Route": "css/main.ktolb1f2mf.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
+      "Route": "css/main.42u22tbvig.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-42u22tbvig.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -75569,7 +76153,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "172"
+          "Value": "166"
         },
         {
           "Name": "Content-Type",
@@ -75577,56 +76161,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o=\""
+          "Value": "\"C8KZKncu86SIBfpralf8nuMPhu8fu2NS81G/XsfQ5n8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:11:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ktolb1f2mf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/main.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6G/UiK/BuOw7Wcv5OE60lQvfiId3L3XvcrRU/S3qm3o="
-        }
-      ]
-    },
-    {
-      "Route": "css/main.ktolb1f2mf.css.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-ktolb1f2mf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "112"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WbG376JCGxY2mKMU+egiQs4dEmE5CnZ+5iUcZZUT5tU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 16:11:10 GMT"
+          "Value": "Sat, 31 May 2025 16:19:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75644,7 +76183,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ktolb1f2mf"
+          "Value": "42u22tbvig"
         },
         {
           "Name": "label",
@@ -75652,7 +76191,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WbG376JCGxY2mKMU+egiQs4dEmE5CnZ+5iUcZZUT5tU="
+          "Value": "sha256-C8KZKncu86SIBfpralf8nuMPhu8fu2NS81G/XsfQ5n8="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-42u22tbvig.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005988023952"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C8KZKncu86SIBfpralf8nuMPhu8fu2NS81G/XsfQ5n8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rEqLNAeSSFI9PQRf6F9ThUHXgWH6qyUj0DdG4lnwGsU="
+        }
+      ]
+    },
+    {
+      "Route": "css/main.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\25rha570fh-42u22tbvig.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C8KZKncu86SIBfpralf8nuMPhu8fu2NS81G/XsfQ5n8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 16:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C8KZKncu86SIBfpralf8nuMPhu8fu2NS81G/XsfQ5n8="
         }
       ]
     },
@@ -75956,12 +76632,12 @@
     },
     {
       "Route": "css/MyProfile.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-soe2lfvs0v.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-vonw3chfua.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000468164794"
+          "Quality": "0.000469704086"
         }
       ],
       "ResponseHeaders": [
@@ -75971,15 +76647,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2135"
+          "Value": "2128"
         },
         {
           "Name": "ETag",
-          "Value": "\"8Tow1g+3qZvXHdDYAmB69qKuM0ZmVn0pxRttXOeOPRk=\""
+          "Value": "\"7aSLPzCnNPSaORi3KVUwTS4D5hZzgXSX0dK2AyKZ2c0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 12:45:09 GMT"
+          "Value": "Sun, 01 Jun 2025 16:02:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75999,13 +76675,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ=\""
+          "Value": "W/\"EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ="
+          "Value": "sha256-EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk="
         }
       ]
     },
@@ -76020,7 +76696,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9021"
+          "Value": "9019"
         },
         {
           "Name": "Content-Type",
@@ -76028,11 +76704,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ=\""
+          "Value": "\"EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 12:45:09 GMT"
+          "Value": "Sun, 01 Jun 2025 16:02:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -76042,13 +76718,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ="
+          "Value": "sha256-EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk="
         }
       ]
     },
     {
       "Route": "css/MyProfile.css.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-soe2lfvs0v.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-vonw3chfua.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -76057,7 +76733,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2135"
+          "Value": "2128"
         },
         {
           "Name": "Content-Type",
@@ -76065,11 +76741,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8Tow1g+3qZvXHdDYAmB69qKuM0ZmVn0pxRttXOeOPRk=\""
+          "Value": "\"7aSLPzCnNPSaORi3KVUwTS4D5hZzgXSX0dK2AyKZ2c0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 12:45:09 GMT"
+          "Value": "Sun, 01 Jun 2025 16:02:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -76087,18 +76763,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8Tow1g+3qZvXHdDYAmB69qKuM0ZmVn0pxRttXOeOPRk="
+          "Value": "sha256-7aSLPzCnNPSaORi3KVUwTS4D5hZzgXSX0dK2AyKZ2c0="
         }
       ]
     },
     {
-      "Route": "css/MyProfile.soe2lfvs0v.css",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-soe2lfvs0v.gz",
+      "Route": "css/MyProfile.vonw3chfua.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-vonw3chfua.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000468164794"
+          "Quality": "0.000469704086"
         }
       ],
       "ResponseHeaders": [
@@ -76108,15 +76784,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2135"
+          "Value": "2128"
         },
         {
           "Name": "ETag",
-          "Value": "\"8Tow1g+3qZvXHdDYAmB69qKuM0ZmVn0pxRttXOeOPRk=\""
+          "Value": "\"7aSLPzCnNPSaORi3KVUwTS4D5hZzgXSX0dK2AyKZ2c0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 12:45:09 GMT"
+          "Value": "Sun, 01 Jun 2025 16:02:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -76136,13 +76812,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ=\""
+          "Value": "W/\"EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "soe2lfvs0v"
+          "Value": "vonw3chfua"
         },
         {
           "Name": "label",
@@ -76150,12 +76826,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ="
+          "Value": "sha256-EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk="
         }
       ]
     },
     {
-      "Route": "css/MyProfile.soe2lfvs0v.css",
+      "Route": "css/MyProfile.vonw3chfua.css",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -76165,7 +76841,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9021"
+          "Value": "9019"
         },
         {
           "Name": "Content-Type",
@@ -76173,11 +76849,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ=\""
+          "Value": "\"EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 12:45:09 GMT"
+          "Value": "Sun, 01 Jun 2025 16:02:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -76187,7 +76863,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "soe2lfvs0v"
+          "Value": "vonw3chfua"
         },
         {
           "Name": "label",
@@ -76195,13 +76871,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JIim2Hbnv1Hcuvtqp3WvUwhl9eHjhibaUnJ5DzbFUMQ="
+          "Value": "sha256-EV0Q+aFsfs/QwUrVjNHi4G3Zeja38WDlMm4+pkvwiqk="
         }
       ]
     },
     {
-      "Route": "css/MyProfile.soe2lfvs0v.css.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-soe2lfvs0v.gz",
+      "Route": "css/MyProfile.vonw3chfua.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\xvhxymlybm-vonw3chfua.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -76210,7 +76886,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2135"
+          "Value": "2128"
         },
         {
           "Name": "Content-Type",
@@ -76218,11 +76894,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8Tow1g+3qZvXHdDYAmB69qKuM0ZmVn0pxRttXOeOPRk=\""
+          "Value": "\"7aSLPzCnNPSaORi3KVUwTS4D5hZzgXSX0dK2AyKZ2c0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 12:45:09 GMT"
+          "Value": "Sun, 01 Jun 2025 16:02:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -76240,7 +76916,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "soe2lfvs0v"
+          "Value": "vonw3chfua"
         },
         {
           "Name": "label",
@@ -76248,7 +76924,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8Tow1g+3qZvXHdDYAmB69qKuM0ZmVn0pxRttXOeOPRk="
+          "Value": "sha256-7aSLPzCnNPSaORi3KVUwTS4D5hZzgXSX0dK2AyKZ2c0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Rooms.6hk0hv410f.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\f6qae94tkr-6hk0hv410f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000676589986"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1477"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WByPV0lGoGO/pjzr+DasVyg68HH5PqvorPyI2K1+KRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 11:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hk0hv410f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Rooms.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Rooms.6hk0hv410f.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\Rooms.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 11:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hk0hv410f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Rooms.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Rooms.6hk0hv410f.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\f6qae94tkr-6hk0hv410f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WByPV0lGoGO/pjzr+DasVyg68HH5PqvorPyI2K1+KRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 11:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hk0hv410f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Rooms.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WByPV0lGoGO/pjzr+DasVyg68HH5PqvorPyI2K1+KRk="
+        }
+      ]
+    },
+    {
+      "Route": "css/Rooms.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\f6qae94tkr-6hk0hv410f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000676589986"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1477"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WByPV0lGoGO/pjzr+DasVyg68HH5PqvorPyI2K1+KRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 11:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Rooms.css",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\Rooms.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5894"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 11:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnQUfoprhgp2XAF4xlAoHZpXxn12EAPCeHb/2z2o3Vc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Rooms.css.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\f6qae94tkr-6hk0hv410f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WByPV0lGoGO/pjzr+DasVyg68HH5PqvorPyI2K1+KRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 11:38:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WByPV0lGoGO/pjzr+DasVyg68HH5PqvorPyI2K1+KRk="
         }
       ]
     },
@@ -77013,6 +77987,304 @@
       ]
     },
     {
+      "Route": "images/back.p2gl4jt0qd.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ayuo2t8fzx-p2gl4jt0qd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004694835681"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ05WE3vzOYybV85EiQDhWgvntPkLY2GTov1CkpQ8NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p2gl4jt0qd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/back.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/back.p2gl4jt0qd.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\back.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p2gl4jt0qd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/back.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/back.p2gl4jt0qd.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ayuo2t8fzx-p2gl4jt0qd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ05WE3vzOYybV85EiQDhWgvntPkLY2GTov1CkpQ8NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p2gl4jt0qd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/back.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SJ05WE3vzOYybV85EiQDhWgvntPkLY2GTov1CkpQ8NA="
+        }
+      ]
+    },
+    {
+      "Route": "images/back.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ayuo2t8fzx-p2gl4jt0qd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004694835681"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ05WE3vzOYybV85EiQDhWgvntPkLY2GTov1CkpQ8NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/back.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\back.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XzudZonT3g7ybHHYdRW0z5XxOuYWY5DL6/qcjGa3VXQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/back.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ayuo2t8fzx-p2gl4jt0qd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SJ05WE3vzOYybV85EiQDhWgvntPkLY2GTov1CkpQ8NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SJ05WE3vzOYybV85EiQDhWgvntPkLY2GTov1CkpQ8NA="
+        }
+      ]
+    },
+    {
       "Route": "images/CreateGame.jpz1kr992n.png",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\CreateGame.png",
       "Selectors": [],
@@ -77769,6 +79041,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-Ht0US5eWGonw3yGFamujmqfuGtPVuG1UcxUFHbw1HUw="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/Player.97rgnx3nmf.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\mnfubznqg1-97rgnx3nmf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003891050584"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "256"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fJPm2yB7sZWqT4dZcISD1sYmodL25LpUDIvcjP6RkgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "97rgnx3nmf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ListLobby/Player.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/Player.97rgnx3nmf.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\Player.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "97rgnx3nmf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ListLobby/Player.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/Player.97rgnx3nmf.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\mnfubznqg1-97rgnx3nmf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fJPm2yB7sZWqT4dZcISD1sYmodL25LpUDIvcjP6RkgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "97rgnx3nmf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ListLobby/Player.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fJPm2yB7sZWqT4dZcISD1sYmodL25LpUDIvcjP6RkgE="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/Player.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\mnfubznqg1-97rgnx3nmf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003891050584"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "256"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fJPm2yB7sZWqT4dZcISD1sYmodL25LpUDIvcjP6RkgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/Player.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\Player.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S4dQBA3Auoiwup6lVowEkyEXodGs3cYUiEh/qBm2bts="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/Player.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\mnfubznqg1-97rgnx3nmf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "256"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fJPm2yB7sZWqT4dZcISD1sYmodL25LpUDIvcjP6RkgE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fJPm2yB7sZWqT4dZcISD1sYmodL25LpUDIvcjP6RkgE="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/refresh.dn4g6xv4a7.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\pnx86cj8wd-dn4g6xv4a7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002398081535"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zr2/uTzj6kOSwDchC2QfBzfkScdG7rccU0MPAOIMDi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dn4g6xv4a7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ListLobby/refresh.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/refresh.dn4g6xv4a7.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\refresh.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dn4g6xv4a7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ListLobby/refresh.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/refresh.dn4g6xv4a7.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\pnx86cj8wd-dn4g6xv4a7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zr2/uTzj6kOSwDchC2QfBzfkScdG7rccU0MPAOIMDi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dn4g6xv4a7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ListLobby/refresh.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zr2/uTzj6kOSwDchC2QfBzfkScdG7rccU0MPAOIMDi4="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/refresh.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\pnx86cj8wd-dn4g6xv4a7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002398081535"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zr2/uTzj6kOSwDchC2QfBzfkScdG7rccU0MPAOIMDi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/refresh.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\refresh.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVVWWmy+jKUOZpvuQqBUpx6stxL5FaEkfe6JQA8ptBc="
+        }
+      ]
+    },
+    {
+      "Route": "images/ListLobby/refresh.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\pnx86cj8wd-dn4g6xv4a7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "416"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zr2/uTzj6kOSwDchC2QfBzfkScdG7rccU0MPAOIMDi4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zr2/uTzj6kOSwDchC2QfBzfkScdG7rccU0MPAOIMDi4="
         }
       ]
     },
@@ -78563,13 +80431,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-sb76hmyj1u.gz",
+      "Route": "images/SettingsLobby/24.k7xqfkpuj9.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\x50k3eizid-k7xqfkpuj9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002610966057"
+          "Quality": "0.002624671916"
         }
       ],
       "ResponseHeaders": [
@@ -78579,15 +80447,1207 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "382"
+          "Value": "380"
         },
         {
           "Name": "ETag",
-          "Value": "\"XWMcDk2iDCBVXAq4bTNPiSppmsFCBw/Nh9o93+Lmp7s=\""
+          "Value": "\"ESeJjnywpxZJUk9XApiiPJmojKzFCd/d/ZwTu6e+4Tw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 13:27:30 GMT"
+          "Value": "Sun, 01 Jun 2025 14:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7xqfkpuj9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/24.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/24.k7xqfkpuj9.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\24.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7xqfkpuj9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/24.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/24.k7xqfkpuj9.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\x50k3eizid-k7xqfkpuj9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ESeJjnywpxZJUk9XApiiPJmojKzFCd/d/ZwTu6e+4Tw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k7xqfkpuj9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/24.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ESeJjnywpxZJUk9XApiiPJmojKzFCd/d/ZwTu6e+4Tw="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/24.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\x50k3eizid-k7xqfkpuj9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002624671916"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ESeJjnywpxZJUk9XApiiPJmojKzFCd/d/ZwTu6e+4Tw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/24.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\24.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oHlTAHv2v5NBFwgdPZe9M58S4tDNxaaXu5I5FujAlRQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/24.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\x50k3eizid-k7xqfkpuj9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ESeJjnywpxZJUk9XApiiPJmojKzFCd/d/ZwTu6e+4Tw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ESeJjnywpxZJUk9XApiiPJmojKzFCd/d/ZwTu6e+4Tw="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/36.pfci342kya.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ubpn8k6r4h-pfci342kya.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001811594203"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QKCPCiwTtiEBZ9YvHMmqv0g5V22Jjq3DVWO/Xzm7UhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pfci342kya"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/36.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/36.pfci342kya.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\36.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pfci342kya"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/36.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/36.pfci342kya.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ubpn8k6r4h-pfci342kya.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QKCPCiwTtiEBZ9YvHMmqv0g5V22Jjq3DVWO/Xzm7UhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pfci342kya"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/36.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QKCPCiwTtiEBZ9YvHMmqv0g5V22Jjq3DVWO/Xzm7UhM="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/36.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ubpn8k6r4h-pfci342kya.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001811594203"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QKCPCiwTtiEBZ9YvHMmqv0g5V22Jjq3DVWO/Xzm7UhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/36.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\36.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-daKZdpaJJtJ6PZjA6ZPIoNhccExi2fzB4qZ7sUW/IAU="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/36.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\ubpn8k6r4h-pfci342kya.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QKCPCiwTtiEBZ9YvHMmqv0g5V22Jjq3DVWO/Xzm7UhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QKCPCiwTtiEBZ9YvHMmqv0g5V22Jjq3DVWO/Xzm7UhM="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/classic.bkwljj59qz.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\qwvkzq9kpw-bkwljj59qz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001602564103"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "623"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sx0+i1WdIALkcCG85hyghF2CuV8+68UHuxMdal+2bmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bkwljj59qz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/classic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/classic.bkwljj59qz.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\classic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bkwljj59qz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/classic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/classic.bkwljj59qz.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\qwvkzq9kpw-bkwljj59qz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sx0+i1WdIALkcCG85hyghF2CuV8+68UHuxMdal+2bmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bkwljj59qz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/classic.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sx0+i1WdIALkcCG85hyghF2CuV8+68UHuxMdal+2bmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/classic.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\qwvkzq9kpw-bkwljj59qz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001602564103"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "623"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sx0+i1WdIALkcCG85hyghF2CuV8+68UHuxMdal+2bmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/classic.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\classic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G0eS4kYLZYcEL8kwa4G/SGfi5ScHw5Y3nhzHVJbVq3Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/classic.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\qwvkzq9kpw-bkwljj59qz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sx0+i1WdIALkcCG85hyghF2CuV8+68UHuxMdal+2bmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sx0+i1WdIALkcCG85hyghF2CuV8+68UHuxMdal+2bmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/transfer.gtwfole1e6.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1vwx4r6ykh-gtwfole1e6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004608294931"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75/9ULIjY9ruW3LkU09/Ov6KiNtKSG10CpuUz9SgynM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gtwfole1e6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/transfer.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/transfer.gtwfole1e6.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\transfer.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gtwfole1e6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/transfer.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/transfer.gtwfole1e6.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1vwx4r6ykh-gtwfole1e6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75/9ULIjY9ruW3LkU09/Ov6KiNtKSG10CpuUz9SgynM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gtwfole1e6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/SettingsLobby/transfer.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-75/9ULIjY9ruW3LkU09/Ov6KiNtKSG10CpuUz9SgynM="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/transfer.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1vwx4r6ykh-gtwfole1e6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004608294931"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75/9ULIjY9ruW3LkU09/Ov6KiNtKSG10CpuUz9SgynM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/transfer.svg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\transfer.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HAAXvol6gk6BYxSFZDM5IXuxWkyQ3n9yu3mvuylMvHs="
+        }
+      ]
+    },
+    {
+      "Route": "images/SettingsLobby/transfer.svg.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\1vwx4r6ykh-gtwfole1e6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75/9ULIjY9ruW3LkU09/Ov6KiNtKSG10CpuUz9SgynM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 14:43:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-75/9ULIjY9ruW3LkU09/Ov6KiNtKSG10CpuUz9SgynM="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-qruxhhq461.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002487562189"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "401"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"svIpruVB4+NFPclRKSvS3EtykaG71zNTSXIvzm8FLtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 04:26:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78607,13 +81667,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k=\""
+          "Value": "W/\"+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k="
+          "Value": "sha256-+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98="
         }
       ]
     },
@@ -78628,7 +81688,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "787"
+          "Value": "895"
         },
         {
           "Name": "Content-Type",
@@ -78636,11 +81696,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k=\""
+          "Value": "\"+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 13:27:30 GMT"
+          "Value": "Mon, 02 Jun 2025 04:26:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78650,13 +81710,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k="
+          "Value": "sha256-+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-sb76hmyj1u.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-qruxhhq461.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -78665,7 +81725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "382"
+          "Value": "401"
         },
         {
           "Name": "Content-Type",
@@ -78673,11 +81733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XWMcDk2iDCBVXAq4bTNPiSppmsFCBw/Nh9o93+Lmp7s=\""
+          "Value": "\"svIpruVB4+NFPclRKSvS3EtykaG71zNTSXIvzm8FLtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 13:27:30 GMT"
+          "Value": "Mon, 02 Jun 2025 04:26:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78695,18 +81755,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XWMcDk2iDCBVXAq4bTNPiSppmsFCBw/Nh9o93+Lmp7s="
+          "Value": "sha256-svIpruVB4+NFPclRKSvS3EtykaG71zNTSXIvzm8FLtA="
         }
       ]
     },
     {
-      "Route": "index.sb76hmyj1u.html",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-sb76hmyj1u.gz",
+      "Route": "index.qruxhhq461.html",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-qruxhhq461.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002610966057"
+          "Quality": "0.002487562189"
         }
       ],
       "ResponseHeaders": [
@@ -78716,15 +81776,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "382"
+          "Value": "401"
         },
         {
           "Name": "ETag",
-          "Value": "\"XWMcDk2iDCBVXAq4bTNPiSppmsFCBw/Nh9o93+Lmp7s=\""
+          "Value": "\"svIpruVB4+NFPclRKSvS3EtykaG71zNTSXIvzm8FLtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 13:27:30 GMT"
+          "Value": "Mon, 02 Jun 2025 04:26:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78744,13 +81804,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k=\""
+          "Value": "W/\"+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sb76hmyj1u"
+          "Value": "qruxhhq461"
         },
         {
           "Name": "label",
@@ -78758,12 +81818,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k="
+          "Value": "sha256-+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98="
         }
       ]
     },
     {
-      "Route": "index.sb76hmyj1u.html",
+      "Route": "index.qruxhhq461.html",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -78773,7 +81833,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "787"
+          "Value": "895"
         },
         {
           "Name": "Content-Type",
@@ -78781,11 +81841,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k=\""
+          "Value": "\"+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 13:27:30 GMT"
+          "Value": "Mon, 02 Jun 2025 04:26:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78795,7 +81855,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sb76hmyj1u"
+          "Value": "qruxhhq461"
         },
         {
           "Name": "label",
@@ -78803,13 +81863,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aOwFhaf9gpSxjUvNhfyfDruKydrb4DJmsByR3QNQF4k="
+          "Value": "sha256-+rBEl3R835OyI2P14ksgYc7kfCrBh12rUs3ql4TVX98="
         }
       ]
     },
     {
-      "Route": "index.sb76hmyj1u.html.gz",
-      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-sb76hmyj1u.gz",
+      "Route": "index.qruxhhq461.html.gz",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\obj\\Release\\net9.0\\compressed\\73q0akmsta-qruxhhq461.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -78818,7 +81878,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "382"
+          "Value": "401"
         },
         {
           "Name": "Content-Type",
@@ -78826,11 +81886,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XWMcDk2iDCBVXAq4bTNPiSppmsFCBw/Nh9o93+Lmp7s=\""
+          "Value": "\"svIpruVB4+NFPclRKSvS3EtykaG71zNTSXIvzm8FLtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 13:27:30 GMT"
+          "Value": "Mon, 02 Jun 2025 04:26:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78848,7 +81908,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sb76hmyj1u"
+          "Value": "qruxhhq461"
         },
         {
           "Name": "label",
@@ -78856,7 +81916,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XWMcDk2iDCBVXAq4bTNPiSppmsFCBw/Nh9o93+Lmp7s="
+          "Value": "sha256-svIpruVB4+NFPclRKSvS3EtykaG71zNTSXIvzm8FLtA="
         }
       ]
     },

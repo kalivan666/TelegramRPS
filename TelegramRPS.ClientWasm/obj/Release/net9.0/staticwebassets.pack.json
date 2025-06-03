@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\TelegramRPS.ClientWasm.styles.css"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+      "PackagePath": "staticwebassets\\css\\GameLobby.css"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\MainMenu.css",
       "PackagePath": "staticwebassets\\css\\MainMenu.css"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\MyProfile.css",
       "PackagePath": "staticwebassets\\css\\MyProfile.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\Rooms.css",
+      "PackagePath": "staticwebassets\\css\\Rooms.css"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\TelegramAuthRequired.css",
@@ -53,6 +61,14 @@
       "PackagePath": "staticwebassets\\images\\JoinGame.svg"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\Player.svg",
+      "PackagePath": "staticwebassets\\images\\ListLobby\\Player.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\ListLobby\\refresh.svg",
+      "PackagePath": "staticwebassets\\images\\ListLobby\\refresh.svg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\MyProfile.png",
       "PackagePath": "staticwebassets\\images\\MyProfile.png"
     },
@@ -71,6 +87,26 @@
     {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\MyProfile\\editAvatar.png",
       "PackagePath": "staticwebassets\\images\\MyProfile\\editAvatar.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\24.svg",
+      "PackagePath": "staticwebassets\\images\\SettingsLobby\\24.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\36.svg",
+      "PackagePath": "staticwebassets\\images\\SettingsLobby\\36.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\classic.svg",
+      "PackagePath": "staticwebassets\\images\\SettingsLobby\\classic.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\SettingsLobby\\transfer.svg",
+      "PackagePath": "staticwebassets\\images\\SettingsLobby\\transfer.svg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\back.svg",
+      "PackagePath": "staticwebassets\\images\\back.svg"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\images\\logo.png",

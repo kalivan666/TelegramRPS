@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelegramRPS.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31ed39b7dee33947a7e26237287d00900553f0cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746c143f2f07a90f6d5033cbbfc398244c316104")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelegramRPS.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelegramRPS.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

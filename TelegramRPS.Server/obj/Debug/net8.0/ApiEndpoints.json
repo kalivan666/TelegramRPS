@@ -1,21 +1,21 @@
 [
   {
-    "ContainingType": "TelegramRPS.Server.Controllers.GameController",
-    "Method": "CreateFromTelegram",
-    "RelativePath": "api/Game/create-from-telegram",
-    "HttpMethod": "POST",
+    "ContainingType": "TelegramRPS.Server.Controllers.LobbyController",
+    "Method": "GetLobby",
+    "RelativePath": "api/lobby/{lobbyId}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userProfileId",
+        "Name": "lobbyId",
         "Type": "System.Guid",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TelegramRPS.Server.Games.DurakGame.DurakGame",
+        "Type": "TelegramRPS.Shared.Models.Game.GameLobby",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -26,14 +26,30 @@
     ]
   },
   {
-    "ContainingType": "TelegramRPS.Server.Controllers.GameController",
-    "Method": "GetStatus",
-    "RelativePath": "api/Game/status",
-    "HttpMethod": "GET",
+    "ContainingType": "TelegramRPS.Server.Controllers.LobbyController",
+    "Method": "CreateLobby",
+    "RelativePath": "api/lobby/create",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TelegramRPS.Shared.Models.DTO.CreateLobbyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TelegramRPS.Shared.Models.Game.GameLobby",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TelegramRPS.Server.Controllers.ProfileController",

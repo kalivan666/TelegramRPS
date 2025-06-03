@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\pages\\lobby.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\pages\\lobby.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\wwwroot\\css\\gamelobby.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\wwwroot\\css\\gamelobby.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\pages\\mainmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\pages\\mainmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|c:\\users\\user\\source\\repos\\telegramrps.clientwasm\\pages\\myprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8B89B667-538B-0CE7-AF72-28C26CCA5EA4}|TelegramRPS.ClientWasm\\TelegramRPS.ClientWasm.csproj|solutionrelative:telegramrps.clientwasm\\pages\\myprofile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F949C40-95B1-4D92-BAF4-BB01E7295831}|TelegramRPS.Server\\TelegramRPS.Server.csproj|c:\\users\\user\\source\\repos\\telegramrps.server\\hubs\\lobbyhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F949C40-95B1-4D92-BAF4-BB01E7295831}|TelegramRPS.Server\\TelegramRPS.Server.csproj|solutionrelative:telegramrps.server\\hubs\\lobbyhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\wwwroot\\css\\main.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-31T16:11:06.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyProfile.razor",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\Pages\\MyProfile.razor",
-              "ViewState": "AgIAAP4AAAAAAAAAAAAAAA8BAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T16:09:08.84Z",
+              "DocumentIndex": 2,
+              "Title": "LobbyHub.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\Hubs\\LobbyHub.cs",
+              "RelativeDocumentMoniker": "TelegramRPS.Server\\Hubs\\LobbyHub.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.Server\\Hubs\\LobbyHub.cs",
+              "RelativeToolTip": "TelegramRPS.Server\\Hubs\\LobbyHub.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAA9wEIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T09:38:46.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T16:05:21.36Z",
+              "Title": "GameLobby.css",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+              "RelativeToolTip": "TelegramRPS.ClientWasm\\wwwroot\\css\\GameLobby.css",
+              "ViewState": "AgIAACgCAAAAAAAAAAAUwFsCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-03T09:14:22.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenu.razor",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "RelativeToolTip": "TelegramRPS.ClientWasm\\Pages\\MainMenu.razor",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Lobby.razor",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\Lobby.razor",
+              "RelativeDocumentMoniker": "TelegramRPS.ClientWasm\\Pages\\Lobby.razor",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TelegramRPS.ClientWasm\\Pages\\Lobby.razor",
+              "RelativeToolTip": "TelegramRPS.ClientWasm\\Pages\\Lobby.razor",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwGUAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T16:00:14.556Z",
+              "WhenOpened": "2025-06-03T09:14:00.087Z",
               "EditorCaption": ""
             }
           ]

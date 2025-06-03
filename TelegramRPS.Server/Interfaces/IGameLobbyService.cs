@@ -1,13 +1,14 @@
-﻿using TelegramRPS.Shared.Models.Game;
+﻿using TelegramRPS.Shared.Models.DTO;
+using TelegramRPS.Shared.Models.Game;
 using TelegramRPS.Shared.Models.Profile;
 
 namespace TelegramRPS.Server.Interfaces;
 
 public interface IGameLobbyService
 {
-    GameLobby CreateLobbyFromTelegramId(long telegramUserId);
-    GameLobby? GetLobby(Guid lobbyId);
+    GameLobby CreateLobby(CreateLobbyRequest request);
+    GameLobby? GetLobby(int lobbyId);
     List<GameLobby> GetAllLobbies();
-    bool JoinLobby(Guid lobbyId, GameProfile gameProfile);
-    bool LeaveLobby(Guid lobbyId, Guid playerProfileId);
+    bool JoinLobby(int lobbyId, GameProfile gameProfile);
+    bool LeaveLobby(int lobbyId, int playerProfileId);
 }

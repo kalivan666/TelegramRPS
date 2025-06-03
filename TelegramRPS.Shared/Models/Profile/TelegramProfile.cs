@@ -2,9 +2,9 @@
 
 public class TelegramProfile
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
+    public int Id { get; set; }
 
-    public Guid UserProfileId { get; set; }
+    public int UserProfileId { get; set; }
 
     public long TelegramUserId { get; set; }
 

@@ -71,3 +71,4 @@ C:\Users\USER\source\repos\TelegramRPS.Server\obj\Debug\net8.0\staticwebassets\m
 C:\Users\USER\source\repos\TelegramRPS.Server\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\USER\source\repos\TelegramRPS.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\USER\source\repos\TelegramRPS.Server\bin\Debug\net8.0\TelegramRPS.Server.staticwebassets.runtime.json
+C:\Users\USER\source\repos\TelegramRPS.Server\bin\Debug\net8.0\web.config

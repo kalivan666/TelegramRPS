@@ -2,7 +2,7 @@
 
 public class UserProfile
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
+    public int Id { get; set; }
 
     public string DisplayName { get; set; } = string.Empty;
     public string? FirstName { get; set; } = string.Empty;

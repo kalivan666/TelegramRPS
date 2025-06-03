@@ -2,6 +2,7 @@
 @layout MainLayout
 
 @using TelegramRPS.ClientWasm.Services
+@using TelegramRPS.ClientWasm.Shared
 @using TelegramRPS.Shared.Models.Profile
 
 @inject IJSRuntime js
@@ -11,10 +12,17 @@
 @inject NavigationManager NavigationManager
 @inject HttpClient Http
 
-
-@if (UserProfileService.CurrentUserProfile != null)
-{
-    <div class="my-profile-container">
+<div class="my-profile-container">
+    @if (IsLoading)
+    {
+        <p>Загрузка...</p>
+    }
+    else if (!IsAuthorized)
+    {
+        <TelegramAuthRequired />
+    }
+    else
+    {
         <img src="images/MyProfile/back.png" alt="Назад" class="back-button" @onclick="GoBack" />
         <h1 class="profile-title">Профиль</h1>
 
@@ -116,13 +124,8 @@
         }
 
         <button class="reset-profile-button" @onclick="OpenResetModal">Сбросить профиль</button>
-
-    </div>
-}
-else
-{
-    <p>Загрузка профиля...</p>
-}
+    }
+</div>
 
 @code {
     [CascadingParameter]
@@ -132,6 +135,10 @@ else
     private bool _isEditModalVisible = false;
     private bool _showResetProfileModal = false;
     private bool _isClosing = false;
+
+    private bool IsAuthorized = false;
+    private bool IsLoading = false;
+    private int? CurrentUserId = null;
 
     private string _editedName = "";
     private string? previewUrl;
@@ -162,6 +169,18 @@ else
             }
         }
 
+        CurrentUserId = UserProfileService.CurrentUserProfile?.Id;
+
+        // Если не авторизован — показываем компонент авторизации через Telegram
+        if (CurrentUserId == null)
+        {
+            IsAuthorized = false;
+            IsLoading = false;
+            return;
+        }
+
+        IsAuthorized = true;
+        IsLoading = false;
     }
 
     private async Task CancelEdit()

@@ -1,0 +1,191 @@
+﻿@page "/rooms"
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using TelegramRPS.ClientWasm.Services
+@using TelegramRPS.ClientWasm.Shared
+@using TelegramRPS.Shared.Models.Game
+@using static TelegramRPS.Shared.Models.Game.GameEnums
+@inject NavigationManager NavigationManager
+@inject UserProfileService UserProfileService
+@inject TelegramAuthService TelegramAuthService
+@inject TelegramInterop TelegramInterop
+@inject HttpClient Http
+
+<div class="roomlist-background">
+    @if (IsLoading)
+    {
+        <p>Загрузка...</p>
+    }
+    else if (!IsAuthorized)
+    {
+        <TelegramAuthRequired />
+    }
+    else
+    {
+        <!-- Header -->
+        <header class="lobbys-header">
+            <div class="logo-and-title">
+                <img src="images/logo.png" alt="Logo" class="lobbys-logo" />
+                <h1 class="roomlist-title">Игровые комнаты</h1>
+                <button class="lobbys-back-button" @onclick='GoBack'>
+                    <img src="images/back.svg" alt="назад" />
+                </button>
+            </div>
+        </header>
+
+        <!-- Filters -->
+        <div class="roomlist-filter-bar">
+            <button class="roomlist-filter-btn @(ActiveFilter == "type" ? "active" : "")" @onclick="@(() => SetFilter("type"))">Тип игры</button>
+            <button class="roomlist-filter-btn @(ActiveFilter == "players" ? "active" : "")" @onclick="@(() => SetFilter("players"))">Игроки</button>
+            <button class="roomlist-filter-btn @(ActiveFilter == "deck" ? "active" : "")" @onclick="@(() => SetFilter("deck"))">Колода</button>
+
+
+            <button class="roomlist-refresh-btn" @onclick="RefreshRooms">
+                <img src="images/ListLobby/refresh.svg" alt="Обновить" />
+            </button>
+        </div>
+
+
+        <!-- Room Cards -->
+        <div class="rooms-bar">
+            @foreach (var room in _Rooms)
+            {
+                <div class="roomcard-wrapper">
+                    <div class="roomcard-header">
+                        <span class="roomcard-title">Комната #@room.Id</span>
+                        <div class="roomcard-type">
+                            @if (room.Mode == GameMode.Classic)
+                            {
+                                <img src="images/SettingsLobby/classic.svg" alt="Подкидной" class="roomcard-type-icon" />
+                            }
+                            else if (room.Mode == GameMode.Transferable)
+                            {
+                                <img src="images/SettingsLobby/transfer.svg" alt="Переводной" class="roomcard-type-icon" />
+                            }
+                        </div>
+                        <span class="roomcard-type-text">@(room.Mode == GameMode.Classic ? "Подкидной" : "Переводной")</span>
+                        <span class="roomcard-dot"></span>
+
+                        <div class="roomcard-deck">
+                            <div class="roomcard-deck-box">@((int)room.Deck)</div>
+                            <span class="roomcard-deck-label">карт</span>
+                        </div>
+                    </div>
+
+                    <div class="roomcard-footer">
+                        <div class="roomcard-players">
+                            <img src="images/ListLobby/Player.svg" alt="👤" class="roomcard-player-icon" />
+                            <span class="roomcard-player-count"><b>@room.Players.Count</b>/@room.MaxPlayers</span>
+                            <div class="roomcard-open-label"></div>
+                        </div>
+
+                        <button class="roomcard-join-btn" @onclick="() => JoinLobby(room.Id)">Войти</button>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Footer Stats -->
+        <!--<footer class="footer-stats">
+        Активных игроков: @ActivePlayers • Комнат: @RoomCount • В игре: @InGameCount
+        </footer>-->
+    }
+</div>
+
+@code {
+    [CascadingParameter]
+    public MainLayout MainLayoutInstance { get; set; } = null!;
+
+    public List<GameLobby> _Rooms = new();
+
+    int ActivePlayers = 1247;
+    int RoomCount = 156;
+    int InGameCount = 892;
+    string ActiveFilter = null;
+
+    private int? CurrentUserId = null;
+    private bool IsAuthorized = false;
+    private bool IsLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (UserProfileService.CurrentUserProfile == null)
+        {
+            var data = await TelegramInterop.GetTelegramUserDataAsync();
+            if (data?.User != null)
+            {
+                await TelegramAuthService.SetTelegramUser(data.User);
+                await UserProfileService.AuthenticateAsync(
+                    TelegramAuthService.CurrentTelegramUser.Id,
+                    TelegramAuthService.CurrentTelegramUser.FirstName,
+                    TelegramAuthService.CurrentTelegramUser.LastName,
+                    TelegramAuthService.CurrentTelegramUser.Username,
+                    TelegramAuthService.CurrentTelegramUser.PhotoUrl
+                );
+            }
+        }
+
+        CurrentUserId = UserProfileService.CurrentUserProfile?.Id;
+
+        // Если не авторизован — показываем компонент авторизации через Telegram
+        if (CurrentUserId == null)
+        {
+            IsAuthorized = false;
+            IsLoading = false;
+            return;
+        }
+
+        IsAuthorized = true;
+
+        var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                Converters = { new JsonStringEnumConverter() }
+            };
+
+        _Rooms = await Http.GetFromJsonAsync<List<GameLobby>>($"api/lobby/lobbys", options);
+        if (_Rooms == null)
+            _Rooms = new();
+
+        IsLoading = false;
+    }
+
+    void SetFilter(string filter)
+    {
+        if (ActiveFilter == filter)
+            ActiveFilter = null;
+        else
+            ActiveFilter = filter;
+
+        // Фильтрация сама произойдёт реактивно, вызовов не нужно
+    }
+
+    private async Task RefreshRooms()
+    {
+        var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                Converters = { new JsonStringEnumConverter() }
+            };
+
+        _Rooms = await Http.GetFromJsonAsync<List<GameLobby>>($"api/lobby/lobbys", options);
+        if (_Rooms == null)
+            _Rooms = new();
+    }
+
+    private async Task GoBack()
+    {
+        if (MainLayoutInstance != null)
+            await MainLayoutInstance.NavigateWithAnimation("/");
+        else
+            NavigationManager.NavigateTo("/");
+    }
+
+    private async Task JoinLobby(int id)
+    {
+        if (MainLayoutInstance != null)
+            await MainLayoutInstance.NavigateWithAnimation($"/lobby/{id}");
+        else
+            NavigationManager.NavigateTo($"/lobby/{id}");
+    }
+}

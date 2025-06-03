@@ -9,12 +9,6 @@ public class ProfileController: ControllerBase
 {
     private readonly IWebHostEnvironment _env;
 
-    private bool IsRequestFromClient()
-    {
-        var origin = Request.Headers["Origin"].ToString();
-        return origin == "https://telegramrps.ru";
-    }
-
     public ProfileController(IWebHostEnvironment env)
     {
         _env = env;
@@ -23,9 +17,6 @@ public class ProfileController: ControllerBase
     [HttpPost("upload-avatar")]
     public async Task<IActionResult> UploadAvatar([FromForm] IFormFile file)
     {
-        /*if (!IsRequestFromClient())
-            return Forbid();*/
-
         if (file == null || file.Length == 0)
             return BadRequest("Файл не загружен.");
 

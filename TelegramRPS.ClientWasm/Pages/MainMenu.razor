@@ -1,17 +1,29 @@
 ﻿@page "/"
 
+@using System.Text.Json
+@using System.Text.Json.Serialization
 @using TelegramRPS.ClientWasm.Services
 @using TelegramRPS.ClientWasm.Shared
+@using TelegramRPS.Shared.Models.DTO
 @using TelegramRPS.Shared.Models.Game
 @using Microsoft.AspNetCore.Components
+@using static TelegramRPS.Shared.Models.Game.GameEnums
 
 @inject TelegramInterop TelegramInterop
 @inject TelegramAuthService TelegramAuthService
 @inject UserProfileService UserProfileService
-@inject GameHubService GameHubService
 @inject NavigationManager NavigationManager
+@inject HttpClient Http
 
-@if (UserProfileService.CurrentUserProfile != null)
+@if (IsLoading)
+{
+    <p>Загрузка...</p>
+}
+else if (!IsAuthorized)
+{
+    <TelegramAuthRequired />
+}
+else
 {
     <TelegramUserInfo />
 
@@ -24,7 +36,7 @@
                 <img src="images/CreateGame.svg" alt="Создать игру" width="20" height="20" />
                 Создать игру
             </button>
-            <button class="join-game-button">
+            <button class="join-game-button" @onclick="GoToRooms">
                 <img src="images/JoinGame.svg" alt="Присоединиться" width="20" height="20" />
                 Присоединиться к игре
             </button>
@@ -44,14 +56,14 @@
         </div>
     </div>
 }
-else
-{
-    <TelegramAuthRequired />
-}
 
 @code {
     [CascadingParameter]
     public MainLayout MainLayoutInstance { get; set; } = null!;
+
+    private bool IsAuthorized = false;
+    private bool IsLoading = false;
+    private int? CurrentUserId = null;
 
     protected override async Task OnInitializedAsync()
     {
@@ -70,7 +82,21 @@ else
                 );
             }
         }
+
+        CurrentUserId = UserProfileService.CurrentUserProfile?.Id;
+
+        // Если не авторизован — показываем компонент авторизации через Telegram
+        if (CurrentUserId == null)
+        {
+            IsAuthorized = false;
+            IsLoading = false;
+            return;
+        }
+
+        IsAuthorized = true;
+        IsLoading = false;
     }
+
 
     private async Task GoToProfile()
     {
@@ -80,13 +106,56 @@ else
             NavigationManager.NavigateTo("/profile");
     }
 
+    private async Task GoToRooms()
+    {
+        if (MainLayoutInstance != null)
+            await MainLayoutInstance.NavigateWithAnimation("/rooms");
+        else
+            NavigationManager.NavigateTo("/rooms");
+    }
+
     private async Task CreateGameAsync()
     {
-        var userId = TelegramAuthService.CurrentTelegramUser?.Id ?? (long)0;
-        var gameId = await GameHubService.CreateGame(userId);
-        if (gameId != Guid.Empty)
+        var userId = UserProfileService.CurrentUserProfile.Id;
+
+        var request = new CreateLobbyRequest
+            {
+                UserProfileId = userId,
+                DisplayName = UserProfileService.CurrentUserProfile.DisplayName,
+                PhotoUrl = UserProfileService.CurrentUserProfile.AvatarUrl,
+                Mode = GameMode.Classic,
+                Deck = DeckType.TrhirtySix,
+                MaxPlayers = 2
+            };
+
+        var response = await Http.PostAsJsonAsync("api/lobby/create", request);
+
+        if (response.IsSuccessStatusCode)
         {
-            NavigationManager.NavigateTo($"/lobby/{gameId}");
+            var options = new JsonSerializerOptions
+            {
+                Converters = { new JsonStringEnumConverter() },
+                PropertyNameCaseInsensitive = true // <-- ВАЖНО
+            };
+
+
+            var json = await response.Content.ReadAsStringAsync();
+            var lobby = JsonSerializer.Deserialize<TelegramRPS.Shared.Models.Game.GameLobby>(json, options);
+
+            if (MainLayoutInstance != null)
+            {
+                Console.WriteLine("[DEBUG] Navigating with animation...");
+                await MainLayoutInstance.NavigateWithAnimation($"/lobby/{lobby!.Id}");
+            }
+            else
+            {
+                Console.WriteLine("[DEBUG] Navigating with NavigationManager...");
+                NavigationManager.NavigateTo($"/lobby/{lobby!.Id}");
+            }
+        }
+        else
+        {
+            Console.WriteLine($"[ERROR] Failed to create lobby. Status code: {response.StatusCode}");
         }
     }
 }

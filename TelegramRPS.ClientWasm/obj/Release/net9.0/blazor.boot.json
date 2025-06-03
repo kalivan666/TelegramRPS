@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TelegramRPS.ClientWasm",
   "resources": {
-    "hash": "sha256-I2YLQ1UaWQF+ekUlPHqYvdicN5o3NbYOXKJ8URTQsFc=",
+    "hash": "sha256-ugmZrwOxmKUDIVg31kVUEVmbaGYSmWONaF3KE5gYAwc=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -210,10 +210,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "TelegramRPS.Shared.4bmqoyjy66.wasm": "TelegramRPS.Shared.wasm",
-      "TelegramRPS.Shared.gppjboz8fk.pdb": "TelegramRPS.Shared.pdb",
-      "TelegramRPS.ClientWasm.3mluykexs7.wasm": "TelegramRPS.ClientWasm.wasm",
-      "TelegramRPS.ClientWasm.mucpyy9xu9.pdb": "TelegramRPS.ClientWasm.pdb"
+      "TelegramRPS.Shared.0w0jjfldlw.wasm": "TelegramRPS.Shared.wasm",
+      "TelegramRPS.Shared.txsi9vaua8.pdb": "TelegramRPS.Shared.pdb",
+      "TelegramRPS.ClientWasm.l6keugtu9b.wasm": "TelegramRPS.ClientWasm.wasm",
+      "TelegramRPS.ClientWasm.a1caxktoji.pdb": "TelegramRPS.ClientWasm.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
@@ -432,12 +432,12 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "TelegramRPS.Shared.4bmqoyjy66.wasm": "sha256-cIOUEiIVQkEkubo608/RIVfdfwXf7iTLGfDGPIkLShs=",
-      "TelegramRPS.ClientWasm.3mluykexs7.wasm": "sha256-6xozlSoWkMkwPsP/sWgbrH/CA4xaodB4e06IkEZbIAA="
+      "TelegramRPS.Shared.0w0jjfldlw.wasm": "sha256-wFXRbhwg6s3rxhd+Kn0ywOEnt3cSvsvx3F4o1q8iM38=",
+      "TelegramRPS.ClientWasm.l6keugtu9b.wasm": "sha256-UzTVBQYAMSe+imsgdDO5OaNgGxTllZ78A6S3qNxcroI="
     },
     "pdb": {
-      "TelegramRPS.Shared.gppjboz8fk.pdb": "sha256-5IP3RH+A79ZEZ/VwTOtpq/HyMUHu56eIIaXTM9TtSnY=",
-      "TelegramRPS.ClientWasm.mucpyy9xu9.pdb": "sha256-svi8d60L0EiWlQYxVdKt1pCcPr0x5nPoyUHLvGjkSl8="
+      "TelegramRPS.Shared.txsi9vaua8.pdb": "sha256-AQhaGRkIGpcQh40TYe/+SsvoeAhsMB45IjrNzmBbSQ4=",
+      "TelegramRPS.ClientWasm.a1caxktoji.pdb": "sha256-kkMQ2pj7qK/l9iifcmRvJNH1BZCYY0TkrP8SoBfr6Oc="
     }
   },
   "cacheBootResources": true,

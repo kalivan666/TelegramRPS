@@ -5,9 +5,10 @@ namespace TelegramRPS.Shared.Models.Game;
 
 public class GameLobby
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
+    public int Id { get; set; }
 
     public List<GameProfile> Players { get; set; } = new();
+    public int AdminUserId { get; set; }
 
     public GameStatus Status { get; set; } = GameStatus.WaitingForPlayers;
 

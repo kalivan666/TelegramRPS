@@ -18,21 +18,14 @@ public class TelegramInterop
         try
         {
             var result = await js.InvokeAsync<JsonElement?>("getTelegramData");
-            Console.WriteLine($"Raw JS result: {result}");
 
             if (result.HasValue)
             {
-                Console.WriteLine($"JS result has value, trying to get user...");
-
                 if (result.Value.TryGetProperty("user", out var userJson))
                 {
-                    Console.WriteLine($"User JSON: {userJson.GetRawText()}");
-
                     try
                     {
                         var user = JsonSerializer.Deserialize<TelegramUser>(userJson.GetRawText());
-                        Console.WriteLine($"User deserialized: {user?.Username}");
-
                         return new TelegramAuthData
                         {
                             InitData = result.Value.GetProperty("initData").GetString() ?? string.Empty,

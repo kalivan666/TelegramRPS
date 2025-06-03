@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.HttpOverrides;
+﻿using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.HttpOverrides;
 using TelegramRPS.Server.HostedServices;
 using TelegramRPS.Server.Hubs;
 using TelegramRPS.Server.Interfaces;
@@ -7,11 +8,10 @@ using TelegramRPS.Server.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // === Сервисы ===
-var botToken = "7669863121:AAGJBnzCjmQY_Gieer4QbGKPhlLJ_HpeZVk";
+var botToken = "";
 builder.Services.AddSingleton<ITelegramBotService>(_ => new TelegramBotService(botToken));
 builder.Services.AddHostedService<TelegramBotHostedService>();
 
-builder.Services.AddSingleton<IGameService, GameService>();
 builder.Services.AddSingleton<IGameLobbyService, GameLobbyService>();
 builder.Services.AddSingleton<ITelegramAuthService, TelegramAuthService>();
 
@@ -30,6 +30,12 @@ builder.Services.AddCors(options =>
             .AllowCredentials();
     });
 });
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+});
+
 
 // === Forwarded Headers (для прокси: nginx, IIS) ===
 builder.Services.Configure<ForwardedHeadersOptions>(options =>
@@ -64,8 +70,8 @@ app.UseStaticFiles();
 
 // Controllers и SignalR хабы
 app.MapControllers();
-app.MapHub<GameHub>("/gamehub");
 app.MapHub<AuthHub>("/authhub");
+app.MapHub<LobbyHub>("/lobbyhub");
 
 var logger = app.Services.GetRequiredService<ILogger<Program>>();
 logger.LogInformation("== Custom logger in Program.cs is working ==");

@@ -1,34 +1,42 @@
 ﻿using System.Collections.Concurrent;
 using TelegramRPS.Server.Interfaces;
+using TelegramRPS.Shared.Models.DTO;
 using TelegramRPS.Shared.Models.Game;
 using TelegramRPS.Shared.Models.Profile;
+using static TelegramRPS.Shared.Models.Game.GameEnums;
 
 namespace TelegramRPS.Server.Services;
 
 public class GameLobbyService : IGameLobbyService
 {
-    private readonly ConcurrentDictionary<Guid, GameLobby> _lobbies = new();
+    private int _nextLobbyId = 1;
+    private readonly ConcurrentDictionary<int, GameLobby> _lobbies = new();
 
-    public GameLobby CreateLobbyFromTelegramId(long telegramUserId)
+    public GameLobby CreateLobby(CreateLobbyRequest request)
     {
-        var gameProfile = new GameProfile
-        {
- 
-            UserProfileId = Guid.NewGuid(), // Можно получить из БД, пока заглушка
-            IsAttacker = false,
-            IsDefender = false
-        };
-
         var lobby = new GameLobby
         {
-            Players = new List<GameProfile> { gameProfile },
+            Id = _nextLobbyId++,
+            AdminUserId = request.UserProfileId,
+            Mode = request.Mode,
+            Deck = request.Deck,
+            MaxPlayers = request.MaxPlayers,
+            Status = GameStatus.WaitingForPlayers
         };
+
+        lobby.Players.Add(new GameProfile
+        {
+            UserProfileId = request.UserProfileId,
+            DisplayName = request.DisplayName,
+            PhotoUrl = request.PhotoUrl,
+            GameId = lobby.Id
+        });
 
         _lobbies[lobby.Id] = lobby;
         return lobby;
     }
 
-    public GameLobby? GetLobby(Guid lobbyId)
+    public GameLobby? GetLobby(int lobbyId)
     {
         _lobbies.TryGetValue(lobbyId, out var lobby);
         return lobby;
@@ -36,16 +44,15 @@ public class GameLobbyService : IGameLobbyService
 
     public List<GameLobby> GetAllLobbies() => _lobbies.Values.ToList();
 
-    public bool JoinLobby(Guid lobbyId, GameProfile player)
+    public bool JoinLobby(int lobbyId, GameProfile player)
     {
         if (!_lobbies.TryGetValue(lobbyId, out var lobby)) return false;
-        //if (lobby.IsStarted) return false;
 
         lobby.Players.Add(player);
         return true;
     }
 
-    public bool LeaveLobby(Guid lobbyId, Guid playerProfileId)
+    public bool LeaveLobby(int lobbyId, int playerProfileId)
     {
         if (!_lobbies.TryGetValue(lobbyId, out var lobby)) return false;
 
